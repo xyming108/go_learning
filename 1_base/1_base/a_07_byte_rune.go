@@ -9,7 +9,7 @@ func main() {
 	*/
 
 	s := "hello 서예명哈哈哈"
-	n := len(s) //len()求的是byte字节的数量，一个中文占3个字节
+	n := len(s) //len()求的是byte字节的数量，一个中文或韩文占3个字节
 	fmt.Println(n)
 
 	for i := 0; i < n; i++ {
