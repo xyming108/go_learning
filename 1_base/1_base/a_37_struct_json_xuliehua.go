@@ -34,6 +34,7 @@ func main() {
 		return
 	}
 	fmt.Printf("%#v\n", string(b))
+	fmt.Println(b)
 	//反序列化
 	str := `{"name":"理想", "age":18}`
 	var pp person7

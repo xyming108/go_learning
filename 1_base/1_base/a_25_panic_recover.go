@@ -27,7 +27,7 @@ func funcC() {
 }
 
 func test11() {
-	defer func() {
+	defer func() { //必须是最后接收的recover()才有效
 		fmt.Println(recover()) //有效	test panic
 	}()
 	defer recover()              //无效！
@@ -43,9 +43,9 @@ func test11() {
 }
 
 func main() {
-	funcA()
+	/*funcA()
 	funcB()
-	funcC()
+	funcC()*/
 
-	//test11()
+	test11()
 }

@@ -20,6 +20,7 @@ func main() {
 	func() {
 		fmt.Println("Hello World")
 	}()
+
 	func(x, y int) {
 		fmt.Println(x * y)
 	}(100, 301)

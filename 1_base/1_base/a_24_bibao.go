@@ -41,15 +41,15 @@ func a5() func() int {
 }
 
 func main() {
-	/*	ret := adder(100)
-		ret2 := ret(200)
-		fmt.Printf("%T\n", ret)
-		fmt.Printf("%T\n", ret2)
-		fmt.Println(ret2)
-		fmt.Println()
+	ret := adder(100)
+	ret2 := ret(200)
+	fmt.Printf("%T\n", ret)
+	fmt.Printf("%T\n", ret2)
+	fmt.Println(ret2)
+	fmt.Println()
 
-		pp := ff3(ff2, 100, 300)
-		ff1(pp)*/
+	pp := ff3(ff2, 100, 300)
+	ff1(pp)
 
 	c := a5()
 	c()

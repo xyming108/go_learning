@@ -11,7 +11,7 @@ Description:
 
 //方法
 //标识符：变量名、函数名、类型名、方法名
-//Do语言中如果标识符首字母是大写的，就表示对外部可见（暴露的，公有的）
+//Go语言中如果标识符首字母是大写的，就表示对外部可见（暴露的，公有的）
 
 type dog1 struct {
 	name string
@@ -55,7 +55,7 @@ func (p person2) guonian() {
 */
 //指针接收者，传内存地址进去
 func (p *person2) zhizhenguonian() {
-	p.age++
+	(*p).age++
 }
 
 func main() {

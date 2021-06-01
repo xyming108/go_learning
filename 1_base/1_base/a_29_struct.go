@@ -24,9 +24,9 @@ func main() {
 
 	var pp = new(person)
 	(*pp).name = "信息员"
-	pp.age = 10000
-	pp.gender = "男"
-	pp.hobby = []string{"乒乓球", "写代码"}
+	pp.age = 1000
+	pp.gender = "女"
+	pp.hobby = []string{"乒乓", "代码"}
 	fmt.Println(pp)
 	fmt.Printf("%T\n", pp)
 	fmt.Println(*pp)
@@ -40,9 +40,9 @@ func main() {
 	}
 	//使用值列表的形式初始化，值的顺序要和结构体定义时字段的顺序一致
 	var poppy = person{
-		"信息员",
+		"信息",
 		8,
-		"男",
+		"女",
 		[]string{"乒乓球", "写代码"},
 	}
 	fmt.Println(ppp, "\n", poppy)

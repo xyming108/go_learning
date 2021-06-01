@@ -11,6 +11,7 @@ func main() {
 	m2["距离"] = 102
 	fmt.Println(m2)
 	fmt.Println(m2["现实"])
+	fmt.Println()
 
 	//约定成俗，用ok接收返回的布尔值
 	v, ok := m2["杨幂"]
