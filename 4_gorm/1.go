@@ -49,13 +49,13 @@ func main() {
 	fmt.Println()
 	var find []User
 	db.Find(&find)
-	fmt.Println("查询所有记录：", find)
+	//fmt.Println("查询所有记录：", find)
 
 	//查询一列值
 	fmt.Println()
 	var pluck []string
 	db.Model(&User{}).Pluck("name", &pluck)
-	fmt.Println("查询一列值:", pluck)
+	//fmt.Println("查询一列值:", pluck)
 
 	//在某一范围内查询一个
 	var where []User
@@ -66,6 +66,13 @@ func main() {
 	var find1 []User
 	db.Where("age >= ? and age <= ?", 40, 42).Find(&find1)
 	fmt.Println("查询内范围：", find1)
+
+	//limit
+	var limit []*User
+	db = db.Limit(3).Where("address = ?", "南山区").Offset(3).Find(&limit)
+	fmt.Println("limit: ", limit)
+	fmt.Println(len(limit))
+	fmt.Println(*limit[0])
 
 	//**更新*****************************************************************************
 	/*

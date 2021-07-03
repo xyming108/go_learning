@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 /**
@@ -24,12 +24,19 @@ func s(r redis.Conn) {
 		return
 	}
 
+	e, err := redis.Bool(r.Do("exists", "abc"))
+	fmt.Println("bool: ", e)
+
 	rr, err := redis.Int(r.Do("Get", "abc"))
+	fmt.Println("获取成功", rr)
+
+	rrr, err := r.Do("Get", "abc")
+	fmt.Println("获取成功", rrr)
+
 	if err != nil {
 		fmt.Println("获取失败", err)
 		return
 	}
-	fmt.Println("获取成功", rr)
 
 	//********String的批量操作*****************
 	_, err = r.Do("MSet", "a", 1, "b", 2)
@@ -85,6 +92,16 @@ func h(r redis.Conn) {
 
 }
 
+func zset(r redis.Conn) {
+	_, err := r.Do("ZADD", "zset", "1", "one")
+	if err != nil {
+		fmt.Println("失败")
+		return
+	}
+	z, err := redis.String(r.Do("Zscore", "zset", "one"))
+	fmt.Println(z)
+}
+
 func main() {
 	//连接之前要打开服务器（redis-server）
 	r, err := redis.Dial("tcp", "localhost:6379")
@@ -94,9 +111,11 @@ func main() {
 	}
 	fmt.Println("redis连接成功")
 	defer r.Close()
-	s(r)
-	fmt.Println()
-	l(r)
-	fmt.Println()
-	h(r)
+	//s(r)
+	//fmt.Println()
+	//l(r)
+	//fmt.Println()
+	//h(r)
+	//fmt.Println()
+	zset(r)
 }
