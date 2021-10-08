@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"runtime"
+	"time"
 )
 
 func main() {
@@ -24,19 +26,20 @@ func main() {
 		hello
 	*/
 
+	//-------------------------------------------
+
 	go func() {
 		defer fmt.Println("A.defer")
 		func() {
 			defer fmt.Println("B.defer")
 			// 结束协程
-			//runtime.Goexit() //退出当前协成
+			runtime.Goexit() //退出当前协成
 			defer fmt.Println("C.defer")
 			fmt.Println("B")
 		}()
 		fmt.Println("A")
 	}()
-	for{
-	}
+	time.Sleep(time.Second*2)
 
 	/*
 		执行到：
