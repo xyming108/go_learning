@@ -12,6 +12,12 @@ Project: Go_Learning
 Description:
 */
 
+/*
+	chan<- int是一个只能发送的通道，可以发送但是不能接收；
+
+	<-chan int是一个只能接收的通道，可以接收但是不能发送。
+*/
+
 // worker pool模式，用于控制goroutine的数量，防止goroutine泄漏和暴涨
 
 func worker(id int, jobs <-chan int, results chan<- int) {
@@ -28,7 +34,7 @@ func main() {
 	results := make(chan int, 100)
 
 	//开启3个goroutine
-	for j := 0; j < 3; j++ {
+	for j := 0; j < 5; j++ {
 		go worker(j, jobs, results)
 	}
 
