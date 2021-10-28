@@ -23,7 +23,7 @@ func main() {
 		github.com/pkg/errors中New一个错误
 		github.com/pkg/errors中New一个错误
 		main.main
-		        /Users/anker/kevin_go/src/GO_Learning/06_error/01_New.go:15
+		        /Users/anker/kevin_go/src/golearning/06_error/01_New.go:15
 		runtime.main
 		        /opt/homebrew/Cellar/go/1.16.5/libexec/src/runtime/proc.go:225
 		runtime.goexit
@@ -36,7 +36,7 @@ func main() {
 	/*
 		试一试可以带参数的Errorf:哈哈哈哈
 		main.main
-		        /Users/anker/kevin_go/src/GO_Learning/06_error/01_New.go:20
+		        /Users/anker/kevin_go/src/golearning/06_error/01_New.go:20
 		runtime.main
 		        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 		runtime.goexit

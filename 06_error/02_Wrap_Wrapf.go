@@ -52,46 +52,46 @@ func main() {
 		/*
 			err0
 			main.err0
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:17
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:17
 			main.err1
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:22
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:22
 			main.err2
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:27
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:27
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:34
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:34
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			错误0
 			main.err0
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:18
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:18
 			main.err1
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:22
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:22
 			main.err2
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:27
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:27
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:34
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:34
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			错误1
 			main.err1
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:23
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:23
 			main.err2
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:27
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:27
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:34
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:34
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			错误2[1 2 3]
 			main.err2
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:30
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:30
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/02_Wrap_Wrapf.go:34
+			        /Users/anker/kevin_go/src/golearning/06_error/02_Wrap_Wrapf.go:34
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit

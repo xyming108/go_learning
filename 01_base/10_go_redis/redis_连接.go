@@ -5,7 +5,7 @@ import "github.com/go-redis/redis"
 /**
 Author: xym
 Date: 2021/5/29 19:23
-Project: GO_Learning
+Project: golearning
 Description:
 */
 

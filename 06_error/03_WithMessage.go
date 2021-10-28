@@ -48,11 +48,11 @@ func main() {
 		/*
 			message0
 			main.err00
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/03_WithMessage.go:9
+			        /Users/anker/kevin_go/src/golearning/06_error/03_WithMessage.go:9
 			main.err11
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/03_WithMessage.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/03_WithMessage.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/03_WithMessage.go:20
+			        /Users/anker/kevin_go/src/golearning/06_error/03_WithMessage.go:20
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit

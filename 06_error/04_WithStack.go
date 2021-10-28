@@ -27,21 +27,21 @@ func main() {
 		fmt.Printf("%+v\n\n", errors.Unwrap(err))
 		/*
 		    main.err000
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:9
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:9
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			main.err000
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:10
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:10
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
@@ -54,11 +54,11 @@ func main() {
 		/*
 				err0
 			main.err000
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:9
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:9
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
@@ -71,29 +71,29 @@ func main() {
 		/*
 			err0
 			main.err000
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:9
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:9
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			main.err000
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:10
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:10
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:14
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:14
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/asm_arm64.s:1133
 			main.err111
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:15
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:15
 			main.main
-			        /Users/anker/kevin_go/src/GO_Learning/06_error/04_WithStack.go:19
+			        /Users/anker/kevin_go/src/golearning/06_error/04_WithStack.go:19
 			runtime.main
 			        /opt/homebrew/Cellar/go/1.17.2/libexec/src/runtime/proc.go:255
 			runtime.goexit
