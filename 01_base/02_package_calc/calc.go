@@ -1,4 +1,4 @@
-package __package_calc
+package _2_package_calc
 
 import "fmt"
 

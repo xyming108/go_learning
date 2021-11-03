@@ -21,7 +21,7 @@ Description:
 
 import (
 	//自定义包名：import 别名 "包的路径"
-	cc "01_base/2_package_calc"
+	cc "01_base/02_package_calc"
 	//匿名导入：只是希望导入包，但是不使用内部的任何数据
 	//import _ "包的路径"
 )
