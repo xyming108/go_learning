@@ -9,6 +9,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 )
 
 type config struct {
@@ -92,6 +93,7 @@ func Encrypt(rawData, key []byte) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	//base32可选base64
 	return base64.StdEncoding.EncodeToString(data), nil
 }
 
@@ -112,43 +114,30 @@ func main() {
 	//比如我想把一个json的结构体加密
 	str := config{
 		"1636559999",
-		true,
 		false,
-		"https://mesp-akk.pdf-in.com/v1/",
-		"https://panu-sebv-prod.ife.com/v2/",
-		"b70c0a89-a0f7-453e-8e1b-48f2aa83422b",
+		false,
+		"https://mes-api.anker-in.com/v1/",
+		"https://manu-serv-dev.eufylife.com/v1/",
+		"a70c0a89-a0f7-453e-8e1b-48f2aa83422a",
 	}
 	//要转化成string格式，通过序列化的方式
 	marshal, err := json.Marshal(str)
 	if err != nil {
 		return
 	}
-	key := "0123456789012345"
+	key := "0000111122223333"
 	encrypt, err := Encrypt(marshal, []byte(key))
 	if err != nil {
 		return
 	}
 	fmt.Println("密文：\n", encrypt)
-	/*
-		密文：
-		vCJjxp/mMvjCku/RAq+zaq07Pm0uCpAnkBp0Gy5Xt0oPDvYOXROsVfIrx4GVrOz2S0gMuIFwR9QTXFhKC+
-		17I8JaBHL27ILOCUcBSZJ4sscvFbffrr8WBfyyDJR8ZuiBvNIcQVteBNm99B1kvNb9H/8WQLBKut1RgCRUV
-		LRsNnovQkD0HgOutk2W7i+zAylEzOvHxVGxb//vHwhLovXT1ZEZcaRFsSxNKfKac50tunjxVbTbQStRH8eL
-		n6R3RCR07+o36H2VT0cU2tCOQxkb/1AOcfjtNL5geJQ1vmNUNhkaCmD/jOEO3v3IGUn/P0VR1MCUEAoR65BfXrkXoNbDeQ==
-	*/
 
 	fmt.Println()
 
 	decrypt, err := Decrypt(encrypt, []byte(key))
 	if err != nil {
+		log.Fatal("---:", err)
 		return
 	}
 	fmt.Println("明文：\n", decrypt)
-	/*
-		明文：
-		{"date_due":"1636559999","oss":true,"external_control":false,
-		"formal_environment_url":"https://mesp-akk.pdf-in.com/v1/",
-		"testing_environment_url":"https://panu-sebv-prod.ife.com/v2/",
-		"group_id":"b70c0a89-a0f7-453e-8e1b-48f2aa83422b"}
-	*/
 }
