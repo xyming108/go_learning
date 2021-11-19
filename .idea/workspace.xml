@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_03_SHA256/SHA256.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07_encryption_algorithm/a_01_AES/CBC.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_01_AES/CBC.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build CBC.go">
+  <component name="RunManager" selected="Go 构建.go build test.go">
     <configuration name="go build CBC.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -67,15 +67,6 @@
       <package value="GO_Learning/07_encryption_algorithm/a_02_SHA1" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning/07_encryption_algorithm/a_03_SHA256" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GO_Learning/07_encryption_algorithm/a_03_SHA256" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_03_SHA256/SHA256.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build SHA1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -96,13 +87,22 @@
       <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_03_SHA256/SHA256.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build SHA256.go" />
-        <item itemvalue="Go 构建.go build SHA1.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/07_encryption_algorithm/a_03_SHA256" />
-        <item itemvalue="Go 构建.go build GO_Learning/07_encryption_algorithm/a_02_SHA1" />
+        <item itemvalue="Go 构建.go build test.go" />
         <item itemvalue="Go 构建.go build CBC.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/07_encryption_algorithm/a_02_SHA1" />
+        <item itemvalue="Go 构建.go build SHA1.go" />
+        <item itemvalue="Go 构建.go build SHA256.go" />
       </list>
     </recent_temporary>
   </component>

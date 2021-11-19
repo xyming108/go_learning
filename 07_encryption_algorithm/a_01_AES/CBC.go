@@ -89,24 +89,24 @@ func AesCBCDecrypt(encryptData, key []byte) ([]byte, error) {
 }
 
 func Encrypt(rawData, key []byte) (string, error) {
-	data, err := AesCBCEncrypt(rawData, key)
-	if err != nil {
-		return "", err
-	}
+	//data, err := AesCBCEncrypt(rawData, key)
+	//if err != nil {
+	//	return "", err
+	//}
 	//base32可选base64
-	return base64.StdEncoding.EncodeToString(data), nil
+	return base64.StdEncoding.EncodeToString(rawData), nil
 }
 
 func Decrypt(rawData string, key []byte) (string, error) {
-	data, err := base64.StdEncoding.DecodeString(rawData)
-	if err != nil {
-		return "", err
-	}
-	dnData, err := AesCBCDecrypt(data, key)
-	if err != nil {
-		return "", err
-	}
-	return string(dnData), nil
+	data, _ := base64.StdEncoding.DecodeString(rawData)
+	//if err != nil {
+	//	return "", err
+	//}
+	//dnData, err := AesCBCDecrypt(data, key)
+	//if err != nil {
+	//	return "", err
+	//}
+	return string(data), nil
 }
 
 func main() {
