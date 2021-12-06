@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/01_base/04_goroutine/a_5_goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_encryption_algorithm/a_01_AES/CBC.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_01_AES/CBC.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -51,40 +52,31 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Go 构建.go build test.go">
-    <configuration name="go build CBC.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_000000_23595959.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_01_AES/CBC.go" />
+      <filePath value="$PROJECT_DIR$/08_utils/01_timeUtil/01_000000_23595959.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/07_encryption_algorithm/a_02_SHA1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GO_Learning/07_encryption_algorithm/a_02_SHA1" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build SHA1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build a_25_panic_recover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_02_SHA1/SHA1.go" />
+      <filePath value="$PROJECT_DIR$/01_base/01_base/a_25_panic_recover.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build SHA256.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build a_5_goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07_encryption_algorithm/a_03_SHA256/SHA256.go" />
+      <filePath value="$PROJECT_DIR$/01_base/04_goroutine/a_5_goroutine.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -96,13 +88,24 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="gobench a_benchmark_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/01_base/08_test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/08_test/a_benchmark_test.go" />
+      <framework value="gobench" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build test.go" />
-        <item itemvalue="Go 构建.go build CBC.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/07_encryption_algorithm/a_02_SHA1" />
-        <item itemvalue="Go 构建.go build SHA1.go" />
-        <item itemvalue="Go 构建.go build SHA256.go" />
+        <item itemvalue="Go 测试.gobench a_benchmark_test.go" />
+        <item itemvalue="Go 构建.go build a_5_goroutine.go" />
+        <item itemvalue="Go 构建.go build a_25_panic_recover.go" />
+        <item itemvalue="Go 构建.go build 01_000000_23595959.go" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +124,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
