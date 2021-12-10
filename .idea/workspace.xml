@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/04_goroutine/a_5_goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,10 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///opt/homebrew/Cellar/go/1.17.2/libexec/src/context/example_test.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///opt/homebrew/Cellar/go/1.17.2/libexec/src/context/context.go" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="20P3tvIoiZUu1808WpSdGLMN95W" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -52,31 +56,31 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Go 构建.go build test.go">
-    <configuration name="go build 01_000000_23595959.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/03_reflect (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning" />
+      <package value="GO_Learning/01_base/03_reflect" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/08_utils/01_timeUtil/01_000000_23595959.go" />
+      <filePath value="$PROJECT_DIR$/01_base/03_reflect/a_2_reflect_struct.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_25_panic_recover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/03_reflect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning" />
+      <package value="GO_Learning/01_base/03_reflect" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/01_base/a_25_panic_recover.go" />
+      <filePath value="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_5_goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/04_goroutine/a_5_goroutine.go" />
+      <filePath value="$PROJECT_DIR$/01_base/13_go_context/server.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -102,10 +106,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build test.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect (1)" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect" />
+        <item itemvalue="Go 构建.go build server.go" />
         <item itemvalue="Go 测试.gobench a_benchmark_test.go" />
-        <item itemvalue="Go 构建.go build a_5_goroutine.go" />
-        <item itemvalue="Go 构建.go build a_25_panic_recover.go" />
-        <item itemvalue="Go 构建.go build 01_000000_23595959.go" />
       </list>
     </recent_temporary>
   </component>
