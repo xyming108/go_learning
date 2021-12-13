@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/1_encode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/2_decode.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +60,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build test.go">
+  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/11_go_web">
+    <configuration name="go build 1_encode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/13_go_json/1_encode.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2_decode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/13_go_json/2_decode.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build GO_Learning/01_base/03_reflect (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -65,22 +88,13 @@
       <filePath value="$PROJECT_DIR$/01_base/03_reflect/a_2_reflect_struct.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/03_reflect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/11_go_web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/03_reflect" />
+      <package value="GO_Learning/01_base/11_go_web" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/03_reflect/a_1_reflect.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GO_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/13_go_context/server.go" />
+      <filePath value="$PROJECT_DIR$/01_base/11_go_web/3_http.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -92,24 +106,13 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench a_benchmark_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/01_base/08_test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GO_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/08_test/a_benchmark_test.go" />
-      <framework value="gobench" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_web" />
         <item itemvalue="Go 构建.go build test.go" />
+        <item itemvalue="Go 构建.go build 1_encode.go" />
+        <item itemvalue="Go 构建.go build 2_decode.go" />
         <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect (1)" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect" />
-        <item itemvalue="Go 构建.go build server.go" />
-        <item itemvalue="Go 测试.gobench a_benchmark_test.go" />
       </list>
     </recent_temporary>
   </component>
