@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_client" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_web/3_http_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/1_encode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/2_decode.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
@@ -60,7 +54,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/11_go_web">
+  <component name="RunManager" selected="Go 构建.go build test.go">
     <configuration name="go build 1_encode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -108,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_web" />
         <item itemvalue="Go 构建.go build test.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_web" />
         <item itemvalue="Go 构建.go build 1_encode.go" />
         <item itemvalue="Go 构建.go build 2_decode.go" />
         <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect (1)" />
