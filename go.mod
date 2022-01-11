@@ -7,6 +7,7 @@ require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gomodule/redigo v1.8.5
+	github.com/hashicorp/consul/api v1.12.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/onsi/ginkgo v1.16.4 // indirect

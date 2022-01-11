@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_consul/09_consul" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_consul/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,16 +25,24 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.17.2/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.17.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file:///opt/homebrew/Cellar/go/1.17.2/libexec/src/context/example_test.go" root0="SKIP_INSPECTION" />
-    <setting file="file:///opt/homebrew/Cellar/go/1.17.2/libexec/src/context/context.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/Cellar/go/1.17.5/libexec/src/sync/pool.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20P3tvIoiZUu1808WpSdGLMN95W" />
   <component name="ProjectLevelVcsManager">
@@ -51,10 +64,15 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build test.go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10_http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/05_channel">
     <configuration name="go build 1_encode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,13 +91,13 @@
       <filePath value="$PROJECT_DIR$/01_base/13_go_json/2_decode.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/03_reflect (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/05_channel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/03_reflect" />
+      <package value="GO_Learning/01_base/05_channel" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/03_reflect/a_2_reflect_struct.go" />
+      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GO_Learning/01_base/11_go_web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -102,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/05_channel" />
         <item itemvalue="Go 构建.go build test.go" />
         <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_web" />
         <item itemvalue="Go 构建.go build 1_encode.go" />
         <item itemvalue="Go 构建.go build 2_decode.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/03_reflect (1)" />
       </list>
     </recent_temporary>
   </component>
