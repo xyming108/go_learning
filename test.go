@@ -1,9 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("测试打标签")
+	a := []int{1, 2, 3, 4, 5, 6}
+	fmt.Println(a[1:3])
 }

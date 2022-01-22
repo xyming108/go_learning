@@ -22,11 +22,11 @@ import "fmt"
    3    3
 */
 
-type TreeNode struct {
+/*type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
-}
+}*/
 
 //递归法
 //时间复杂度：O(n)

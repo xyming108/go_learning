@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_consul/09_consul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_08_104.二叉树的最大深度.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/14_go_defer/01_defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/14_go_defer/01_defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_07_101.对称二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_07_101.对称二叉树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_trace/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_trace/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_interview/01_go_struct_compare.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/01_go_struct_compare.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_interview/02_go_struct_compare.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/02_go_struct_compare.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace.out" beforeDir="false" afterPath="$PROJECT_DIR$/trace.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.17.5/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.17.6/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,7 +43,6 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file:///usr/local/Cellar/go/1.17.5/libexec/src/sync/pool.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20P3tvIoiZUu1808WpSdGLMN95W" />
@@ -59,72 +60,95 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01_base/14_go_defer" />
+      <recent name="$PROJECT_DIR$/10_trace" />
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/05_channel">
-    <configuration name="go build 1_encode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build GO_Learning/05_leetcode_top_100">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GO_Learning" />
+      <kind value="PACKAGE" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/13_go_json/1_encode.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 2_decode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/15_go_context (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning" />
+      <package value="GO_Learning/01_base/15_go_context" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/13_go_json/2_decode.go" />
+      <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/05_channel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/15_go_context (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/05_channel" />
+      <package value="GO_Learning/01_base/15_go_context" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" />
+      <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/11_go_web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/15_go_context (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/11_go_web" />
+      <package value="GO_Learning/01_base/15_go_context" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/11_go_web/3_http.go" />
+      <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_4.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GO_Learning/05_leetcode_top_100" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GO_Learning/05_leetcode_top_100" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_08_104.二叉树的最大深度.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/05_channel" />
+        <item itemvalue="Go 构建.go build GO_Learning/05_leetcode_top_100" />
         <item itemvalue="Go 构建.go build test.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_web" />
-        <item itemvalue="Go 构建.go build 1_encode.go" />
-        <item itemvalue="Go 构建.go build 2_decode.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (2)" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (1)" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (3)" />
       </list>
     </recent_temporary>
   </component>
