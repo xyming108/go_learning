@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_08_104.二叉树的最大深度.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_09_121.买卖股票的最佳时机.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_10_136.只出现一次的数字.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/14_go_defer/01_defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/14_go_defer/01_defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_07_101.对称二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_07_101.对称二叉树.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_trace/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_trace/trace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_interview/01_go_struct_compare.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/01_go_struct_compare.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_interview/02_go_struct_compare.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/02_go_struct_compare.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace.out" beforeDir="false" afterPath="$PROJECT_DIR$/trace.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build GO_Learning/05_leetcode_top_100">
+  <component name="RunManager" selected="Go 构建.go build GO_Learning/05_leetcode_top_100 (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,15 +80,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning/01_base/15_go_context (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GO_Learning/01_base/15_go_context" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_1.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GO_Learning/01_base/15_go_context (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -105,13 +91,13 @@
       <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/15_go_context (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/05_leetcode_top_100 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/15_go_context" />
+      <package value="GO_Learning/05_leetcode_top_100" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/15_go_context/03_context_goroutine_4.go" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_10_136.只出现一次的数字.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GO_Learning/05_leetcode_top_100" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -121,6 +107,15 @@
       <package value="GO_Learning/05_leetcode_top_100" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_08_104.二叉树的最大深度.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_简单_09_121.买卖股票的最佳时机.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_09_121.买卖股票的最佳时机.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -144,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build GO_Learning/05_leetcode_top_100 (1)" />
+        <item itemvalue="Go 构建.go build a1_简单_09_121.买卖股票的最佳时机.go" />
         <item itemvalue="Go 构建.go build GO_Learning/05_leetcode_top_100" />
         <item itemvalue="Go 构建.go build test.go" />
         <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (2)" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (1)" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/15_go_context (3)" />
       </list>
     </recent_temporary>
   </component>

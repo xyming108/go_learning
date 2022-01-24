@@ -9,6 +9,9 @@ package main
 const UINT_MAX = ^uint(0) //18446744073709551615
 //最小值
 const UINT_MIN = 0
+
+//也可以用
+math.MaxInt64
 ```
 
 ####2. 有符号整型int
@@ -20,4 +23,7 @@ package main
 const INT_MAX = int(^uint(0) >> 1) //-9223372036854775808
 //根据补码，其最小值二进制表示，首位1，其余0
 const INT_MIN = ^INT_MAX //9223372036854775807
+
+//也可以用
+math.MinInt64
 ```
