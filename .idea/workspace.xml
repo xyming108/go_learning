@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/12_go_kafka/1_producer_async.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_go_kafka/1_producer_sync.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_go_kafka/2_consumer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +74,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 2_consumer.go">
+  <component name="RunManager" selected="Go 构建.go build test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -88,13 +84,13 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 1_producer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1_cas.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12_go_kafka/1_producer.go" />
+      <filePath value="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 2_consumer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -106,22 +102,13 @@
       <filePath value="$PROJECT_DIR$/12_go_kafka/2_consumer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/16_go_CAS" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GO_Learning" />
+      <package value="GO_Learning/01_base/16_go_CAS" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning/12_go_kafka (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GO_Learning/12_go_kafka" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12_go_kafka/1_producer_sync.go" />
+      <filePath value="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GO_Learning/12_go_kafka" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -131,6 +118,15 @@
       <package value="GO_Learning/12_go_kafka" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/12_go_kafka/1_producer_async.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/16_go_CAS" />
+        <item itemvalue="Go 构建.go build 1_cas.go" />
         <item itemvalue="Go 构建.go build 2_consumer.go" />
         <item itemvalue="Go 构建.go build GO_Learning/12_go_kafka" />
-        <item itemvalue="Go 构建.go build GO_Learning/12_go_kafka (1)" />
-        <item itemvalue="Go 构建.go build 1_producer.go" />
-        <item itemvalue="Go 构建.go build GO_Learning" />
       </list>
     </recent_temporary>
   </component>
