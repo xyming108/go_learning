@@ -10,10 +10,10 @@ import "fmt"
 输出：[1,1,2,3,4,4]
 */
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
 
 //递归法
 func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_11_141.环形链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_12_155.最小栈.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_13_160.相交链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_14_169.多数元素.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_03_21.合并两个有序链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_03_21.合并两个有序链表.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build test.go">
+  <component name="RunManager" selected="Go 构建.go build a1_简单_14_169.多数元素.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,15 +96,6 @@
       <filePath value="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 2_consumer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12_go_kafka/2_consumer.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build GO_Learning/01_base/16_go_CAS" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,13 +105,32 @@
       <filePath value="$PROJECT_DIR$/01_base/16_go_CAS/1_cas.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/12_go_kafka" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/05_leetcode_top_100" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="GO_Learning/05_leetcode_top_100" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_11_141.环形链表.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_简单_14_169.多数元素.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GO_Learning/12_go_kafka" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12_go_kafka/1_producer_async.go" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_14_169.多数元素.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -141,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build a1_简单_14_169.多数元素.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/05_leetcode_top_100" />
         <item itemvalue="Go 构建.go build test.go" />
         <item itemvalue="Go 构建.go build GO_Learning/01_base/16_go_CAS" />
         <item itemvalue="Go 构建.go build 1_cas.go" />
-        <item itemvalue="Go 构建.go build 2_consumer.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/12_go_kafka" />
       </list>
     </recent_temporary>
   </component>
