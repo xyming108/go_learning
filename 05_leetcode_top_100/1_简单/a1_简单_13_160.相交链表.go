@@ -8,10 +8,10 @@ package main
 设计一个时间复杂度 O(m + n) 、仅用 O(1) 内存的解决方案
 */
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
 
 //哈希集合法
 //思路：遍历链表headA，并将链表headA中的每个节点加入哈希集合中，

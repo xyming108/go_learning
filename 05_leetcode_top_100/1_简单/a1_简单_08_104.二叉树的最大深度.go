@@ -29,18 +29,18 @@ import "fmt"
 返回它的最大深度3
 */
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
+//type TreeNode struct {
+//	Val   int
+//	Left  *TreeNode
+//	Right *TreeNode
+//}
 func max(a, b int) int {
 	if a < b {
 		return b
 	}
 	return a
 }
+
 
 //深度优先搜索
 //时间复杂度：O(n)

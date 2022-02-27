@@ -1,5 +1,5 @@
 ### 一、golang中int类型的最大值和最小值
-
+> https://leetcode-cn.com/problem-list/2cktkvj/
 ####1. 无符号整型uint
 
 ```go
@@ -26,4 +26,14 @@ const INT_MIN = ^INT_MAX //9223372036854775807
 
 //也可以用
 math.MinInt64
+```
+
+#### 3.golang中swap
+```go
+nums := []int{0, 1, 0, 3, 12}
+nums[0], nums[1] = nums[1], nums[0]
+fmt.Println(nums)
+
+结果：
+[1 0 0 3 12]
 ```
