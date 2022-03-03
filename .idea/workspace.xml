@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_Decoder_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_struct_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_原生_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据_解决.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_go_slice/02_slice中数据误用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_go_slice/02_slice中数据误用_解决.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_go_slice/03_新旧slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/19_go_label/01_break_loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/19_go_label/02_goto_loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/20_go_bibao/01_闭包接收参数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/20_go_bibao/01_闭包接收参数_解决.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/20_go_bibao/02_闭包接收参数_稍复杂.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/21_assert/01_失败的类型断言.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/18_go_slice/01_slice中隐藏的数据.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据_解决.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/18_go_slice/01_slice中隐藏的数据_解决.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +71,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_base/20_go_bibao" />
     <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerConsole" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01_base/20_go_bibao" />
       <recent name="$PROJECT_DIR$/13_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,7 +87,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 01_slice中隐藏的数据_解决.go">
+  <component name="RunManager" selected="Go 构建.go build GO_Learning (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,34 +97,16 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 01_修改原有元素的值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_break_loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" />
+      <filePath value="$PROJECT_DIR$/01_base/19_go_loop/01_break_loop.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 01_slice中隐藏的数据_解决.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据_解决.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 01_slice中隐藏的数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning/01_base/13_go_json (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -131,18 +120,56 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="GO_Learning/01_base/13_go_json" />
+      <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_原生_4.go" />
+      <filePath value="$PROJECT_DIR$/test1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/17_go_range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GO_Learning/01_base/19_go_tag" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="GO_Learning/01_base/19_go_tag" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/19_go_tag/01_goto_loop.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GO_Learning/01_base/21_assert" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GO_Learning/01_base/17_go_range" />
+      <package value="GO_Learning/01_base/21_assert" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" />
+      <filePath value="$PROJECT_DIR$/01_base/21_assert/01_失败的类型断言.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -157,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 01_slice中隐藏的数据_解决.go" />
-        <item itemvalue="Go 构建.go build 01_slice中隐藏的数据.go" />
-        <item itemvalue="Go 构建.go build 01_修改原有元素的值.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/17_go_range" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/13_go_json (3)" />
+        <item itemvalue="Go 构建.go build GO_Learning (1)" />
+        <item itemvalue="Go 构建.go build GO_Learning" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/21_assert" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/19_go_tag" />
+        <item itemvalue="Go 构建.go build 01_break_loop.go" />
       </list>
     </recent_temporary>
   </component>
