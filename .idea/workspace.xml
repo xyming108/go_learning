@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="" />
+    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_6_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_7_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_right_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_right_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_panic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/1_web.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/1_web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/2_简易路由.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/2_简易路由.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_client" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_server" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_Learning" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace.out" beforeDir="false" afterPath="$PROJECT_DIR$/trace.out" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +91,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_简单_21_461.汉明距离.go">
+  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/13_go_json">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,25 +101,34 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 1_example.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 4_close_http_body_right_2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/14_go_memory_escape/1_example.go" />
+      <filePath value="$PROJECT_DIR$/01_base/11_go_http/4_close_http_body_right_2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 3_make10000_example.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 4_close_http_right.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/14_go_memory_escape/3_make10000_example.go" />
+      <filePath value="$PROJECT_DIR$/01_base/11_go_http/4_close_http_right.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/14_go_memory_escape" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 5_close_http_request_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_1.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GO_Learning/01_base/11_go_http (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -113,27 +142,28 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="GO_Learning/14_go_memory_escape" />
+      <package value="GO_Learning/01_base/11_go_http" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/14_go_memory_escape/3_make_example.go" />
+      <filePath value="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_简单_20_448.找到所有数组中消失的数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/13_go_json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="GO_Learning/01_base/13_go_json" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_20_448.找到所有数组中消失的数字.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build a1_简单_21_461.汉明距离.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/a1_简单_21_461.汉明距离.go" />
+      <filePath value="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_panic.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -148,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build a1_简单_21_461.汉明距离.go" />
-        <item itemvalue="Go 构建.go build a1_简单_20_448.找到所有数组中消失的数字.go" />
-        <item itemvalue="Go 构建.go build 3_make10000_example.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/14_go_memory_escape" />
-        <item itemvalue="Go 构建.go build 1_example.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/13_go_json" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_http (1)" />
+        <item itemvalue="Go 构建.go build 5_close_http_request_1.go" />
+        <item itemvalue="Go 构建.go build 4_close_http_body_right_2.go" />
+        <item itemvalue="Go 构建.go build 4_close_http_right.go" />
       </list>
     </recent_temporary>
   </component>
