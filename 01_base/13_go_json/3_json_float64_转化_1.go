@@ -15,6 +15,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	var status = uint64(result["status"].(float64))
+	var status = int(result["status"].(float64))
 	fmt.Println("Status value: ", status)
+	fmt.Printf("%T", status)
 }

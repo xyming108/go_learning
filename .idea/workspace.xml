@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_6_select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/05_channel/a_7_select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_right_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/4_close_http_response_right_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_Decoder_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_struct_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_原生_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据_解决.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/1_web.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/1_web.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/2_简易路由.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/2_简易路由.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_client" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_server" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/11_go_web/3_http_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/11_go_http/3_http_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GO_Learning" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace.out" beforeDir="false" afterPath="$PROJECT_DIR$/trace.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/13_project" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerConsole" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +80,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build GO_Learning/01_base/13_go_json">
+  <component name="RunManager" selected="Go 构建.go build 01_slice中隐藏的数据_解决.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,53 +90,34 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 4_close_http_body_right_2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_修改原有元素的值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/11_go_http/4_close_http_body_right_2.go" />
+      <filePath value="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 4_close_http_right.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_slice中隐藏的数据_解决.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/11_go_http/4_close_http_right.go" />
+      <filePath value="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据_解决.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 5_close_http_request_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_slice中隐藏的数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_1.go" />
+      <filePath value="$PROJECT_DIR$/01_base/18_slice/01_slice中隐藏的数据.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/11_go_http (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="GO_Learning/01_base/11_go_http" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/11_go_http/5_close_http_request_2.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning/01_base/13_go_json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/01_base/13_go_json (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -163,7 +133,16 @@
       <kind value="FILE" />
       <package value="GO_Learning/01_base/13_go_json" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_panic.go" />
+      <filePath value="$PROJECT_DIR$/01_base/13_go_json/3_json_float64_转化_原生_4.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GO_Learning/01_base/17_go_range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GO_Learning/01_base/17_go_range" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -178,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/13_go_json" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/11_go_http (1)" />
-        <item itemvalue="Go 构建.go build 5_close_http_request_1.go" />
-        <item itemvalue="Go 构建.go build 4_close_http_body_right_2.go" />
-        <item itemvalue="Go 构建.go build 4_close_http_right.go" />
+        <item itemvalue="Go 构建.go build 01_slice中隐藏的数据_解决.go" />
+        <item itemvalue="Go 构建.go build 01_slice中隐藏的数据.go" />
+        <item itemvalue="Go 构建.go build 01_修改原有元素的值.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/17_go_range" />
+        <item itemvalue="Go 构建.go build GO_Learning/01_base/13_go_json (3)" />
       </list>
     </recent_temporary>
   </component>
