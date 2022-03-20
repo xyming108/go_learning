@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_01_重复串查找.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_02_岛屿的周长_简单.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_03_编辑距离_困难.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/b_1_two_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/b_1_two_sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/b_2_median_of_two_sorted_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/b_2_median_of_two_sorted_arrays.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/b_3_container_with_most_water.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/b_3_container_with_most_water.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/b_4_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/b_4_sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/b_5_remove_duplicates_from_sorted_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/b_5_remove_duplicates_from_sorted_array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_1_array/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_01_array/utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_2_string/b_1_longest_palindromic_substring.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_02_string/b_1_longest_palindromic_substring.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-    </list>
+    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.17.6/libexec" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="/usr/bin/git" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -46,7 +34,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/01_base/05_channel/a_5_pool.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/01_base/05_channel/a_05_pool.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20P3tvIoiZUu1808WpSdGLMN95W" />
   <component name="ProjectLevelVcsManager">
@@ -70,7 +58,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/01_base/20_go_bibao" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerConsole" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -114,40 +102,50 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GO_Learning/01_base/05_channel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GO_Learning/02_algorithm/a_04_华为机考 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GO_Learning/01_base/05_channel" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="GO_Learning/02_algorithm/a_04_华为机考" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_6_select.go" />
+      <filePath value="$PROJECT_DIR$/02_algorithm/a_04_华为机考/03_简单_HJ54.表达式求值.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_03_编辑距离_困难.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 中等_HJ75.公公子串计算.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_03_编辑距离_困难.go" />
+      <filePath value="$PROJECT_DIR$/02_algorithm/a_04_华为机考/中等_HJ75.公公子串计算.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_2_channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 简单_HJ76.尼科彻斯定力.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_2_channel.go" />
+      <filePath value="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ76.尼科彻斯定力.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_6_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 简单_HJ85.最长回文子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="GO_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_6_select.go" />
+      <filePath value="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ85.最长回文子串.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -163,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build GO_Learning" />
-        <item itemvalue="Go 构建.go build a_2_channel.go" />
-        <item itemvalue="Go 构建.go build a_6_select.go" />
-        <item itemvalue="Go 构建.go build GO_Learning/01_base/05_channel" />
-        <item itemvalue="Go 构建.go build a_03_编辑距离_困难.go" />
+        <item itemvalue="Go 构建.go build 简单_HJ85.最长回文子串.go" />
+        <item itemvalue="Go 构建.go build 简单_HJ76.尼科彻斯定力.go" />
+        <item itemvalue="Go 构建.go build 中等_HJ75.公公子串计算.go" />
+        <item itemvalue="Go 构建.go build GO_Learning/02_algorithm/a_04_华为机考 (2)" />
       </list>
     </recent_temporary>
   </component>
