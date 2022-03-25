@@ -5,13 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/greeter_client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/greeter_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/greeter_server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/greeter_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/proto/helloworld.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_gRPC/01_example/proto/helloworld.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/中等_HJ75.公公子串计算.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/03_中等_HJ75.公公子串计算.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ11.数字颠倒.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/01_简单_HJ11.数字颠倒.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ12.字符串反转.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/02_简单_HJ12.字符串反转.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ76.尼科彻斯定力.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/04_简单_HJ76.尼科彻斯定力.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ85.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/05_简单_HJ85.最长回文子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_01_重复串查找.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_01_重复串查找.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_02_岛屿的周长_简单.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_02_岛屿的周长_简单.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_深信服/a_03_编辑距离_困难.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_03_编辑距离_困难.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/01_简单_HJ11.数字颠倒.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/01_简单_HJ11.数字颠倒.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/02_简单_HJ12.字符串反转.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/02_简单_HJ12.字符串反转.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/03_中等_HJ75.公公子串计算.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/03_中等_HJ75.公公子串计算.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/04_简单_HJ76.尼科彻斯定力.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/04_简单_HJ76.尼科彻斯定力.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/05_简单_HJ85.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/05_简单_HJ85.最长回文子串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_01_1.两数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_01_1.两数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_02_20.有效的括号.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_02_20.有效的括号.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_03_21.合并两个有序链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_03_21.合并两个有序链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_04_53.最大子序和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_04_53.最大子序和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_05_70.爬楼梯.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_05_70.爬楼梯.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_06_94.二叉树的中序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_06_94.二叉树的中序遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_07_101.对称二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_07_101.对称二叉树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_08_104.二叉树的最大深度.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_08_104.二叉树的最大深度.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_09_121.买卖股票的最佳时机.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_09_121.买卖股票的最佳时机.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_10_136.只出现一次的数字.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_10_136.只出现一次的数字.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_11_141.环形链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_11_141.环形链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_12_155.最小栈.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_12_155.最小栈.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_13_160.相交链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_13_160.相交链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_14_169.多数元素.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_14_169.多数元素.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_15_206.反转链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_15_206.反转链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_16_226.翻转二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_16_226.翻转二叉树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_17_234.回文链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_17_234.回文链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_18_283.移动零.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_18_283.移动零.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_19_338.比特位计数.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_19_338.比特位计数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_20_448.找到所有数组中消失的数字.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_20_448.找到所有数组中消失的数字.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_21_461.汉明距离.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_21_461.汉明距离.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_22_543.二叉树的直径.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_22_543.二叉树的直径.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/1_简单/a1_简单_23_217.合并二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_23_217.合并二叉树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +115,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build GO_Learning">
+  <component name="RunManager" selected="Go 构建.go build go_Learning">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,25 +123,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GO_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="GO_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GO_Learning/02_algorithm/a_04_华为机考 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -156,6 +171,25 @@
       <filePath value="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ85.最长回文子串.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="GO_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -166,9 +200,16 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go 构建.go build go_Learning" />
+      <item itemvalue="Go 构建.go build GO_Learning/02_algorithm/a_04_华为机考 (2)" />
+      <item itemvalue="Go 构建.go build 中等_HJ75.公公子串计算.go" />
+      <item itemvalue="Go 构建.go build 简单_HJ76.尼科彻斯定力.go" />
+      <item itemvalue="Go 构建.go build 简单_HJ85.最长回文子串.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build GO_Learning" />
+        <item itemvalue="Go 构建.go build go_Learning" />
         <item itemvalue="Go 构建.go build 简单_HJ85.最长回文子串.go" />
         <item itemvalue="Go 构建.go build 简单_HJ76.尼科彻斯定力.go" />
         <item itemvalue="Go 构建.go build 中等_HJ75.公公子串计算.go" />

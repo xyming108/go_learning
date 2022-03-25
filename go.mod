@@ -1,4 +1,4 @@
-module GO_Learning
+module go_Learning
 
 go 1.17
 
@@ -78,8 +78,7 @@ require (
 	golang.org/x/net v0.0.0-20210928044308-7d9f5e0b762b // indirect
 	golang.org/x/sys v0.0.0-20211210111614-af8b64212486 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/grpc v1.43.0 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	stathat.com/c/consistent v1.0.0 // indirect
@@ -88,11 +87,12 @@ require (
 require (
 	github.com/Shopify/sarama v1.30.0
 	github.com/apache/rocketmq-client-go/v2 v2.1.0
-	github.com/bsm/sarama-cluster v2.1.15+incompatible
 	github.com/garyburd/redigo v1.6.2
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/gomodule/redigo v1.8.5
 	github.com/hashicorp/consul/api v1.12.0
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/pkg/errors v0.9.1
+	google.golang.org/grpc v1.43.0
+	google.golang.org/protobuf v1.27.1
 )
