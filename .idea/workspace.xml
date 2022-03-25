@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="" />
+    <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/中等_HJ75.公公子串计算.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/03_中等_HJ75.公公子串计算.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ11.数字颠倒.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/01_简单_HJ11.数字颠倒.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ12.字符串反转.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/02_简单_HJ12.字符串反转.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ76.尼科彻斯定力.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/04_简单_HJ76.尼科彻斯定力.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/简单_HJ85.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_华为机考/05_简单_HJ85.最长回文子串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
