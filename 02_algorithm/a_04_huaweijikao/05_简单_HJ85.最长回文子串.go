@@ -36,7 +36,7 @@ func longestPalindrome(s string) string {
 	start, end := 0, 0
 	for i := 0; i < n; {
 		l, r := i, i
-		//如果字符串相同则分别冲前一个和后一个开始回文
+		//如果字符串相同则分别从前一个和后一个开始回文
 		for r < n-1 && s[r] == s[r+1] {
 			r++
 		}
