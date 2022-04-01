@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_01_2.两数相加.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_02_3.无重复字符的最长子串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_5.最长回文子串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_11.盛最多水的容器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/05_简单_HJ85.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/05_简单_HJ85.最长回文子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_gRPC/01_example/proto/helloworld.proto" beforeDir="false" afterPath="$PROJECT_DIR$/15_gRPC/01_example/proto/helloworld.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_中等_03_5.最长回文子串.go">
+  <component name="RunManager" selected="Go 构建.go build test10.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,15 +95,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/05_简单_HJ85.最长回文子串.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build a1_中等_02_02.两数相加.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_02_02.两数相加.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build a1_中等_02_3.无重复字符的最长子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -127,23 +115,22 @@
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_5.最长回文子串.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/05_leetcode_top_100/2_medium" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_leetcode_top_100/2_medium" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_02_02.两数相加.go" />
+      <filePath value="$PROJECT_DIR$/test10.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -157,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium" />
-      <item itemvalue="Go 构建.go build a1_中等_02_02.两数相加.go" />
       <item itemvalue="Go 构建.go build a1_中等_02_3.无重复字符的最长子串.go" />
       <item itemvalue="Go 构建.go build 05_简单_HJ85.最长回文子串.go" />
       <item itemvalue="Go 构建.go build a1_中等_03_5.最长回文子串.go" />
+      <item itemvalue="Go 构建.go build test.go" />
+      <item itemvalue="Go 构建.go build test10.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test10.go" />
+        <item itemvalue="Go 构建.go build test.go" />
         <item itemvalue="Go 构建.go build a1_中等_03_5.最长回文子串.go" />
         <item itemvalue="Go 构建.go build 05_简单_HJ85.最长回文子串.go" />
         <item itemvalue="Go 构建.go build a1_中等_02_3.无重复字符的最长子串.go" />
-        <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium" />
-        <item itemvalue="Go 构建.go build a1_中等_02_02.两数相加.go" />
       </list>
     </recent_temporary>
   </component>
