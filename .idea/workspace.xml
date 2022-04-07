@@ -5,21 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/01_base/01_base/a_04_rand.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_05_15.三数之和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/localCache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/remoteCache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940522542324000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940522573123000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940548355473000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940762322803000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940776037983000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_01_重复串查找.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_01_shenxinfu/a_01_重复串查找.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_02_岛屿的周长_简单.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_01_shenxinfu/a_02_岛屿的周长_简单.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_03_shenxinfu/a_03_编辑距离_困难.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_01_shenxinfu/a_03_编辑距离_困难.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/01_简单_HJ11.数字颠倒.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/01_简单_HJ11.数字颠倒.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/02_简单_HJ12.字符串反转.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/02_简单_HJ12.字符串反转.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/03_中等_HJ75.公公子串计算.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/03_中等_HJ75.公公子串计算.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/04_简单_HJ76.尼科彻斯定力.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/04_简单_HJ76.尼科彻斯定力.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/05_简单_HJ85.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/05_简单_HJ85.最长回文子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_04_huaweijikao/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_02_huaweijikao/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_05_futuzhengquan/a_01_重排等差数列.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_03_futuzhengquan/a_01_重排等差数列.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_algorithm/a_05_futuzhengquan/a_02_股票最大利润.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_interview/a_03_futuzhengquan/a_02_股票最大利润.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/01_base/a_07_byte_rune.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/01_base/a_07_byte_rune.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_11.盛最多水的容器.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_04_11.盛最多水的容器.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/map/map9.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/map/map9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/string/1.2.5-str2.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/string/1.2.5-str2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/6.4-lock1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/6.4-lock2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/6.4-redis-lock1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/6.4-redis-lock2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/6.4-zookeeper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/micro/etcdv3/naming.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/micro/etcdv3/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/micro/go-micro1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/micro/server.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +52,7 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="/usr/bin/git" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/16_source_code/goAdvanced" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -53,7 +69,7 @@
     <setting file="file://$PROJECT_DIR$/01_base/05_channel/a_05_pool.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20P3tvIoiZUu1808WpSdGLMN95W" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -90,7 +106,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build test.go">
+  <component name="RunManager" selected="Go 构建.go build 1.9.2-channel2.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,49 +116,59 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_中等_03_5.最长回文子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1.9.1-channel1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_5.最长回文子串.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/1.9.1-channel1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a_01_重排等差数列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1.9.2-channel2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/02_algorithm/a_05_futuzhengquan/a_01_重排等差数列.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/1.9.2-channel2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build channel1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test10.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/cases/channel1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter1/struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="go_Learning/16_source_code/goAdvanced/chapter1/struct" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test1.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/struct/struct1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oob4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/struct/oob4.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -156,19 +182,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build a1_中等_03_5.最长回文子串.go" />
-      <item itemvalue="Go 构建.go build test.go" />
-      <item itemvalue="Go 构建.go build test10.go" />
-      <item itemvalue="Go 构建.go build a_01_重排等差数列.go" />
-      <item itemvalue="Go 构建.go build test1.go" />
+      <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter1/struct" />
+      <item itemvalue="Go 构建.go build oob4.go" />
+      <item itemvalue="Go 构建.go build channel1.go" />
+      <item itemvalue="Go 构建.go build 1.9.1-channel1.go" />
+      <item itemvalue="Go 构建.go build 1.9.2-channel2.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build test.go" />
-        <item itemvalue="Go 构建.go build test1.go" />
-        <item itemvalue="Go 构建.go build a_01_重排等差数列.go" />
-        <item itemvalue="Go 构建.go build test10.go" />
-        <item itemvalue="Go 构建.go build a1_中等_03_5.最长回文子串.go" />
+        <item itemvalue="Go 构建.go build 1.9.2-channel2.go" />
+        <item itemvalue="Go 构建.go build 1.9.1-channel1.go" />
+        <item itemvalue="Go 构建.go build channel1.go" />
+        <item itemvalue="Go 构建.go build oob4.go" />
+        <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter1/struct" />
       </list>
     </recent_temporary>
   </component>

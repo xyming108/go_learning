@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 /*
 给定一个长度为 n 的整数数组height。有n条垂线，第 i 条线的两个端点是(i, 0)和(i, height[i])。
 找出其中的两条线，使得它们与x轴共同构成的容器可以容纳最多的水。
@@ -17,8 +21,34 @@ package main
 输出：1
 */
 
-
+/*
+对撞指针法
+时间复杂度：O(n)
+空间复杂度：O(1)
+*/
+func maxArea(height []int) int {
+	first, second := 0, len(height)-1
+	area := 0
+	h := 0
+	for first < second {
+		tempArea := 0
+		width := second - first
+		if height[first] < height[second] {
+			h = height[first]
+			first++
+		} else {
+			h = height[second]
+			second--
+		}
+		tempArea = width * h
+		if tempArea > area {
+			area = tempArea
+		}
+	}
+	return area
+}
 
 func main() {
-
+	data := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+	fmt.Println(maxArea(data))
 }

@@ -21,6 +21,7 @@ func main() {
 		fmt.Printf("%c ", c)
 	}
 	fmt.Println()
+	fmt.Println()
 
 	//************************************
 	//字符串不能修改，只能转换成rune或byte类型修改后在转换回string类型
@@ -29,6 +30,7 @@ func main() {
 	fmt.Println(s2)
 	s2[0] = '青'
 	fmt.Println(string(s2)) //把rune切片强制转换成字符串
+	fmt.Println(s2)
 	fmt.Println()
 
 	aa1 := "big"
