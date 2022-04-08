@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/01_base/a_04_rand.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_05_15.三数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_06_17.电话号码的字母组合.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/localCache.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/remoteCache.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/bootstrap.css" afterDir="false" />
@@ -19,10 +17,8 @@
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940548355473000.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940762322803000.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940776037983000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/01_base/a_07_byte_rune.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/01_base/a_07_byte_rune.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_11.盛最多水的容器.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_04_11.盛最多水的容器.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/map/map9.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/map/map9.go" afterDir="false" />
@@ -52,7 +48,7 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="/usr/bin/git" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/16_source_code/goAdvanced" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -106,7 +102,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 1.9.2-channel2.go">
+  <component name="RunManager" selected="Go 构建.go build a1_中等_06_17.电话号码的字母组合.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,15 +110,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1.9.1-channel1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/1.9.1-channel1.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 1.9.2-channel2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -134,16 +121,34 @@
       <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/1.9.2-channel2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build channel1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 3.2.1-http-1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/channel/cases/channel1.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.2.1-http-1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter1/struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build a1_中等_05_15.三数之和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_05_15.三数之和.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_中等_06_17.电话号码的字母组合.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_06_17.电话号码的字母组合.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -157,18 +162,9 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/16_source_code/goAdvanced/chapter1/struct" />
+      <package value="go_Learning/16_source_code/goAdvanced/chapter3" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/struct/struct1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oob4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/struct/oob4.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.2.2-http2-1.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -182,19 +178,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter1/struct" />
-      <item itemvalue="Go 构建.go build oob4.go" />
-      <item itemvalue="Go 构建.go build channel1.go" />
-      <item itemvalue="Go 构建.go build 1.9.1-channel1.go" />
       <item itemvalue="Go 构建.go build 1.9.2-channel2.go" />
+      <item itemvalue="Go 构建.go build 3.2.1-http-1.go" />
+      <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3" />
+      <item itemvalue="Go 构建.go build a1_中等_05_15.三数之和.go" />
+      <item itemvalue="Go 构建.go build a1_中等_06_17.电话号码的字母组合.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build a1_中等_06_17.电话号码的字母组合.go" />
+        <item itemvalue="Go 构建.go build a1_中等_05_15.三数之和.go" />
+        <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3" />
+        <item itemvalue="Go 构建.go build 3.2.1-http-1.go" />
         <item itemvalue="Go 构建.go build 1.9.2-channel2.go" />
-        <item itemvalue="Go 构建.go build 1.9.1-channel1.go" />
-        <item itemvalue="Go 构建.go build channel1.go" />
-        <item itemvalue="Go 构建.go build oob4.go" />
-        <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter1/struct" />
       </list>
     </recent_temporary>
   </component>
