@@ -24,10 +24,10 @@ import (
 输出：[8,9,9,9,0,0,0,1]
 */
 
-type ListNode struct {
+/*type ListNode struct {
 	Val  int
 	Next *ListNode
-}
+}*/
 
 /*
 模拟法
