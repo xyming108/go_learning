@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb851a1-5fd9-4de4-8c0a-e064bfea4d3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_07_19.删除链表的倒数第n个结点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_08_22.括号生成.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_09_31.下一个排列.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/localCache.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/cache/remoteCache.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/css/bootstrap.css" afterDir="false" />
@@ -19,7 +18,7 @@
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940762322803000.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter6/secondKill/static/upload/20210118/1610940776037983000.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_01_2.两数相加.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_01_2.两数相加.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_08_22.括号生成.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_08_22.括号生成.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_source_code/goAdvanced/chapter1/array/sort1.go" afterDir="false" />
@@ -108,7 +107,7 @@
       <recent name="$PROJECT_DIR$/10_http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium">
+  <component name="RunManager" selected="Go 构建.go build a1_中等_09_31.下一个排列.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -125,6 +124,24 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.8-distribute-crawer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_中等_08_22.括号生成.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_08_22.括号生成.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_中等_09_31.下一个排列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_09_31.下一个排列.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning/05_leetcode_top_100/2_medium" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -146,25 +163,6 @@
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_07_19.删除链表的倒数第n个结点.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter3 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="go_Learning/16_source_code/goAdvanced/chapter3" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.6-redis2.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter3 (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -184,25 +182,6 @@
       <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.6.2-rank1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/16_source_code/goAdvanced/chapter3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="go_Learning/16_source_code/goAdvanced/chapter3" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/goAdvanced/chapter3/3.6-redis1.go" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -214,19 +193,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3" />
-      <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3 (2)" />
       <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3 (3)" />
       <item itemvalue="Go 构建.go build 3.8-distribute-crawer.go" />
       <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium" />
+      <item itemvalue="Go 构建.go build a1_中等_08_22.括号生成.go" />
+      <item itemvalue="Go 构建.go build a1_中等_09_31.下一个排列.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build a1_中等_09_31.下一个排列.go" />
+        <item itemvalue="Go 构建.go build a1_中等_08_22.括号生成.go" />
         <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium" />
         <item itemvalue="Go 构建.go build 3.8-distribute-crawer.go" />
         <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3 (3)" />
-        <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3 (2)" />
-        <item itemvalue="Go 构建.go build go_Learning/16_source_code/goAdvanced/chapter3" />
       </list>
     </recent_temporary>
   </component>
