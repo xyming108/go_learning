@@ -23,6 +23,7 @@ type BarrierResponse struct {
 	Err    error
 	Resp   string
 	Status int
+	Url    string
 }
 
 // 构造请求
@@ -38,6 +39,7 @@ func doRequest(out chan<- BarrierResponse, url string) {
 	resp, err := client.Get(url)
 	if resp != nil {
 		res.Status = resp.StatusCode
+		res.Url = url
 	}
 	if err != nil {
 		res.Err = err
@@ -82,7 +84,7 @@ func Barrier(urls ...string) {
 	}
 	if !hasError {
 		for _, resp := range response {
-			fmt.Println(resp.Status)
+			fmt.Println(resp.Status, resp.Url)
 		}
 	}
 }
