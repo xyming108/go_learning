@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/internal/commandinfo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/conn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/go16.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/go17.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/go18.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/log.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/pool.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/pool17.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/pubsub.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/reply.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/scan.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/github.com/garyburd/redigo/redis/script.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/vendor/modules.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
