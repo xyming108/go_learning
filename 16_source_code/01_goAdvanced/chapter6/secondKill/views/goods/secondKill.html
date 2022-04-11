@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="created by shirdon"/>
+    <title>商品抢购-Go秒杀系统</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/product.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/bootstrap.css">
+    <script src="../../static/js/jquery-1.10.1.js"></script>
+    <script src="../../static/js/swiper.min.js"></script>
+    <script src="../../static/js/base.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="top center">
+        <div class="left fl">
+            <ul>
+                <li><a href="/category_1.html"
+                >PC电脑</a>
+                </li>
+                <li><a href=""
+                       target="_blank">手机</a>
+                </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="right fr">
+            <div class="cart fr"><a href="/cart">购物车</a>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="/auth/login" target="_blank">登录</a></li>
+                    <li>|</li>
+                    <li><a href="/auth/registerStep1" target="_blank">注册</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+
+
+<div class="banner_x center">
+    <div class="nav fl">
+        <ul class="clearfix" id="nav_list">
+            <li class="link-category">
+                <a href="#">全部商品分类</a>
+                <div class="banner_y center">
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a href="/category_1.html" target="_blank">手机</a>
+                                <div class="pop">
+                                    <ol class="cate_list clear">
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/category_2.html" target="_blank">PC电脑</a>
+                                <div class="pop">
+                                    <ol class="cate_list clear">
+                                    </ol>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="search fr">
+        <form action="/search/productList" method="get">
+            <div class="text fl">
+                <input type="text" class="shuru" value="" id="keyword" name="keyword"
+                       placeholder="搜索您需要的商品">
+            </div>
+            <div class="submit fl">
+                <input type="submit" class="search" value="搜索"/>
+            </div>
+            <div class="clear"></div>
+        </form>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/static/frontend/css/product.css">
+
+<div class="jieshao mt20 w">
+    <div class="left fl">
+        <div class="swiper-container">
+            <div class="swiper-wrapper item_focus" id="item_focus">
+                <div class="swiper-slide">
+                    <img src="/static/upload/20210118/1610940548355473000.jpg"/>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="right fr">
+        <div class="h3 ml20 mt20">手机</div>
+        <div class="jianjie mr40 ml20 mt10"></div>
+        <div class="jiage ml20 mt10">现价：999元　<span class="old_price">原价：1299元</span>
+        </div>
+        <div class="ft20 ml20 mt10">选择颜色</div>
+        <div class="xzbb ml20 mt10 clearfix" id="color_list">
+            <div class="banben fl active" product_id="3" color_id="1">
+                <a>
+                    <span class="yuandian" style="background:#ffffff"></span>
+                    <span class="yanse">黑色</span>
+                </a>
+            </div>
+        </div>
+        <div class="xqxq mt10 ml20">
+            <div class="top1 mt10">
+                <div class="left1 fl"> 　 <span id="color_name"></span></div>
+                <div class="right1 fr">999元</div>
+                <div class="clear"></div>
+            </div>
+            <div class="bot mt20 ft20 ftbc">总计：999元</div>
+        </div>
+        <div class="xiadan ml20 mt10">
+            <input class="addToCart" type="button" name="addToCart" id="addCart" onclick="checkTime(this);"
+                   value="立即抢购"/>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="container clearfix">
+    <div class="c_left">
+        <h2>看了又看</h2>
+    </div>
+    <div class="c_right">
+        <ul class="detail_list clearfix">
+            <li class="">详情描述</li>
+            <li class="">规格参数</li>
+            <li class="">用户评价</li>
+        </ul>
+        <div class="detail_info">
+            <div class="detail_info_item">
+            </div>
+            <div class="detail_info_item">
+                <ul>
+                </ul>
+            </div>
+            <div class="detail_info_item">
+                <ul class="comment_list">
+
+                    <li>
+                        <div>
+                            <img src="https://www.frontend.com/themes/frontend/images/stars5.gif">
+                        </div>
+                        <p>很好！</p>
+
+                        <p class="eval-order-info"> <span class="eval-time">2021-06-08
+								14:22:35</span><span>白</span><span>6GB+64GB</span><span></span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var times = 0;
+
+    //检查点击次数，如果大于10次，则限制点击
+    function checkTime(btn) {
+        if (times < 10) {
+            ++times;
+            console.log("----:", times)
+        } else {
+            btn.disabled = true;
+            console.log("You clicked too much!");
+            setTimeout(function () {
+                times = 0;
+            }, 86400000);
+        }
+    }
+
+    $(function () {
+        $('#addCart').click(function () {
+            let product_id = $('#color_list .active').attr('product_id');
+            let color_id = $('#color_list .active').attr('color_id');
+            let data = {
+                "product_id": product_id
+            };
+            $.ajax({
+                type: 'POST',
+                url: "/seckill/goods/1",
+                data: data,
+                success: function (res) {
+                    if (res.code == -1) {
+                        alert(res.msg)
+                    }
+                    console.log("ok")
+                },
+                dataType: "json"
+            });
+        });
+
+        $('#collect').click(function () {
+            var product_id = $('#color_list .active').attr('product_id');
+            $.get('/product/collect?product_id=' + product_id, function (response) {
+                if (response.success) {
+                    location.reload();
+                } else if (response.msg = "请先登陆") {
+                    location.href = "/pass/login"
+                }
+            }.bind(this))
+        });
+    })
+</script>
+<footer class="mt20 center">
+    <div class="mt20">Go秒杀系统|隐私政策</div>
+    <div>Go秒杀系统 蜀ICP证xxxxxxx号 蜀ICP备xxxxxxxxxxx号 蜀公网安备xxxxxxxxxxxxx号</div>
+</footer>
+</body>
+</html>
