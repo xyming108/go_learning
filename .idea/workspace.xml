@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_12_39.组合总和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_13_46.全排列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_base/01_base/a_16_slice_copy.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/01_base/a_16_slice_copy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_13_46.全排列.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_13_46.全排列.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

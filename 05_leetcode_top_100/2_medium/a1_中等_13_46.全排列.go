@@ -18,6 +18,28 @@ import "fmt"
 输出：[[1]]
 */
 
+/*
+回溯算法 =（递归+纯暴力搜索）因为：有的能用回溯做出来就不错了
+特点：抽象
+解决问题：组合、切割、子集、排列、棋盘（N皇后）
+解题方法：动手画图（切忌纯想象），一般回溯问题都可以变形为n叉树形结构
+
+解题模板：
+func {
+	if 终止条件 {
+		收集结果
+		return
+	}
+	for 元素集合 {
+		处理结点
+		递归
+		回溯
+	}
+	正常return
+}
+
+学习视频地址：https://www.bilibili.com/video/BV1cy4y167mM/
+*/
 func permute(nums []int) [][]int {
 	var ans [][]int
 	var backTrack func(nums []int, length int, path []int)
@@ -36,7 +58,7 @@ func permute(nums []int) [][]int {
 
 			backTrack(nums, len(nums), path)
 
-			//撤销之前的操作
+			//回溯之前的操作
 			nums = append(nums[:i], append([]int{cur}, nums[i:]...)...)
 			path = path[:len(path)-1]
 		}
