@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_14_48.旋转图像.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_15_49.字母异位词分组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_16_55.跳跃游戏.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build go_Learning">
-    <configuration name="go build a1_中等_13_46.全排列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_13_46.全排列.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build a1_中等_16_55.跳跃游戏.go">
     <configuration name="go build a1_中等_14_48.旋转图像.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,6 +64,15 @@
       <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_15_49.字母异位词分组.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a1_中等_16_55.跳跃游戏.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_16_55.跳跃游戏.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build a1_中等_16_55.跳跃游戏.go" />
         <item itemvalue="Go 构建.go build go_Learning" />
         <item itemvalue="Go 构建.go build a1_中等_15_49.字母异位词分组.go" />
         <item itemvalue="Go 构建.go build a1_中等_14_48.旋转图像.go" />
         <item itemvalue="Go 构建.go build go_Learning/01_base/01_base" />
-        <item itemvalue="Go 构建.go build a1_中等_13_46.全排列.go" />
       </list>
     </recent_temporary>
   </component>
