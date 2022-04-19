@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/16_source_code/02_golang-underlying-principle-analysis/golang-underlying-principle-analysis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/golang-underlying-principle-analysis" vcs="Git" />
   </component>
 </project>
