@@ -5,11 +5,266 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/gateway.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/hystrix-example.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/hystrix_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/client_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/common_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/token_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/user_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/cmd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/httpclient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/httpserver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/implementation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/cmd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/httpclient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/httpserver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/implementation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/client/string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/client/stringModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/cmd/client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/docker/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/gateway/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/pb/string.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/pb/string.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/transports.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/framework.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/config/AuthPermission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/route/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/oauth-script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/plugins/instrument.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/client_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/common_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/token_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/user_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/oauth_model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/activity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/oauth.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/oauth.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/seckill.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/seckill.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/bootstrap/BootstrapProperty.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/bootstrap/bootstrap_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/decorator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/oauth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/common/service_instance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/ConfigProperty.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/need_config.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/discover_init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/discovery_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/kit_consul_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/loadbalance/loadbalance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/mysql/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/ratelimiter/instruments.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/seckill.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/seckill.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/etcd_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/model/activity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/model/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/plugins/instrument.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/activity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/etcd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/etcd_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/zk.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/zk_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/model/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/plugins/instrument.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_err/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/anti_spam.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/min_limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/sec_limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_redis/redis_proc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/zk.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/test/app.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_err/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_limit/sec_limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_product/product_count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_redis/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_redis/user_skill.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_user/user_history.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/zk.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/plugins/instrument.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/user_model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/user-script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/压测秒杀系统.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/架构图.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Anonymous.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Append.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Callback.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Compose.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Counter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Embed.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Foreach.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/FunctionImplementor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/HelloGo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/List.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/StructImplementor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/TypeAlias.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Variable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/compute/add.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/concurrency/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/concurrency/first_concurrency.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/main/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/reflection/reflection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/mutex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/rw_mutex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/sync_map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/wait_group.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/SimpleServer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/beego/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/forms/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/gin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/helloweb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/memory/memory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mongo/mongo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mysql/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mysql/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/webForm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/writeresponse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/discover_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/kit_discover_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/my_discover_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/endpoint/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/plugins/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/transport/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/string-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/transports.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/string-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/pb/string.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/pb/string.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream-pb/stream_string.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream-pb/stream_string.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/string-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/ViperDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/conf/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/conf/events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/config/resume_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/resume.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/gateway/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/transports.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/discover/discover_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/discover/kit_discover_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/loadbalance/loadbalance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/loadbalance/loadbalance_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/README.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +302,25 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro" />
       <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build README.go">
+  <component name="RunManager" selected="Go 构建.go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float (1)">
+    <configuration name="go build 1_float32bits.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/1_float32bits.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build README.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,24 +328,6 @@
       <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/README.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build a1_中等_16_55.跳跃游戏.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_16_55.跳跃游戏.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build a1_中等_17_56.合并区间.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_17_56.合并区间.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -102,7 +349,7 @@
       <filePath value="$PROJECT_DIR$/test1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -116,18 +363,37 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning" />
+      <package value="go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/math_big_int.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/fmt_float.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float (1)" />
+        <item itemvalue="Go 构建.go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
+        <item itemvalue="Go 构建.go build 1_float32bits.go" />
         <item itemvalue="Go 构建.go build README.go" />
         <item itemvalue="Go 构建.go build go_Learning (1)" />
-        <item itemvalue="Go 构建.go build go_Learning" />
-        <item itemvalue="Go 构建.go build a1_中等_17_56.合并区间.go" />
-        <item itemvalue="Go 构建.go build a1_中等_16_55.跳跃游戏.go" />
       </list>
     </recent_temporary>
   </component>

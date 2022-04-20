@@ -4,6 +4,8 @@ import "fmt"
 
 //golang中最大值和最小值
 func maxmin() {
+	//math包
+
 	//最大值
 	const UINT_MAX = ^uint(0) //18446744073709551615
 	//最小值
