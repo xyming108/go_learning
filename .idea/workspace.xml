@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_18_62.不同路径.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_19_64.最小路径和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_20_75.颜色分类.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_中等_19_64.最小路径和.go">
+  <component name="RunManager" selected="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium">
     <configuration name="go build a1_中等_18_62.不同路径.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -95,7 +92,7 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning/05_leetcode_top_100/2_medium" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -109,37 +106,27 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
+      <package value="go_Learning/05_leetcode_top_100/2_medium" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/math_big_int.go" />
+      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_20_75.颜色分类.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/fmt_float.go" />
+      <filePath value="$PROJECT_DIR$/test1.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium" />
+        <item itemvalue="Go 构建.go build test1.go" />
         <item itemvalue="Go 构建.go build a1_中等_19_64.最小路径和.go" />
         <item itemvalue="Go 构建.go build go_Learning" />
         <item itemvalue="Go 构建.go build a1_中等_18_62.不同路径.go" />
-        <item itemvalue="Go 构建.go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float (1)" />
-        <item itemvalue="Go 构建.go build go_Learning/16_source_code/02_golang_underlying_principle_analysis/float" />
       </list>
     </recent_temporary>
   </component>
