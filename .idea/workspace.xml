@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_20_75.颜色分类.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -145,6 +143,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/16_source_code/02_golang-underlying-principle-analysis/golang-underlying-principle-analysis" />
+      <path value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/golang-underlying-principle-analysis" />
+    </ignored-roots>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
