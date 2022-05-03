@@ -1,16 +1,13 @@
 package main
 
-import (
-	"fmt"
-	"github.com/golang-module/carbon"
-)
+import "fmt"
 
 func main() {
-	a := carbon.Parse("2022-04-26").SetWeekStartsAt(carbon.Monday).StartOfWeek().ToDateTimeString()
-	b := carbon.Parse("2022-04-26").SetWeekStartsAt(carbon.Monday).EndOfWeek().ToDateTimeString()
-	fmt.Println(a[0:10])
-	fmt.Println(b[0:10])
-
+	a := 1 << 3
+	fmt.Printf("%b\n", a)
 	fmt.Println(a)
+	b := 6 >> 1
+	fmt.Printf("%b\n", b)
 	fmt.Println(b)
+	fmt.Println(b&(1))
 }
