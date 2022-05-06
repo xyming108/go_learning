@@ -18,11 +18,11 @@ import "fmt"
 输出：[]
 */
 
-type TreeNode struct {
+/*type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
-}
+}*/
 
 /*
 广度优先搜索
