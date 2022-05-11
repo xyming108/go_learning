@@ -16,11 +16,11 @@ preorder 和 inorder 均 无重复 元素.
 输出: [-1]
 */
 
-type TreeNode struct {
+/*type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
-}
+}*/
 
 /*
 递归

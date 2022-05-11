@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_27_114.二叉树展开为链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test10.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_25_102.二叉树的层次遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_25_102.二叉树的层次遍历.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_中等_26_105.从前序与中序遍历序列构造二叉树.go">
+  <component name="RunManager" selected="Go 构建.go build test10.go">
     <configuration name="go build a1_中等_24_98.验证二叉搜索树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,32 +102,22 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/05_leetcode_top_100/2_medium (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_leetcode_top_100/2_medium" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_23_96.不同的二叉搜索树.go" />
+      <filePath value="$PROJECT_DIR$/test10.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test10.go" />
         <item itemvalue="Go 构建.go build a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" />
         <item itemvalue="Go 构建.go build go_Learning" />
         <item itemvalue="Go 构建.go build a1_中等_25_102.二叉树的层次遍历.go" />
         <item itemvalue="Go 构建.go build a1_中等_24_98.验证二叉搜索树.go" />
-        <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium (1)" />
       </list>
     </recent_temporary>
   </component>
