@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="myForm1">
+    <select name="mySelect">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+    </select>
+</form>
+<form name="myForm2">
+    <select name="mySelect">
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+    </select>
+</form>
+<button onclick="getForm()">提交</button>
+<script>
+    function getForm() {
+        let value1 = Number.parseInt(document.myForm1.mySelect.value);
+        let value2 = Number.parseInt(document.myForm2.mySelect.value);
+        alert(value1 + value2)
+    }
+</script>
+</body>
+</html>
+
+
+
+
