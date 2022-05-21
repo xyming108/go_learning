@@ -5,40 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_02_128.最长连续序列.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/23_go_map_thread_safety/01_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/23_go_map_thread_safety/02_map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/23_go_map_thread_safety/03_map_sync.map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_01_2.两数相加.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_01_2.两数相加.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_02_3.无重复字符的最长子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_02_3.无重复字符的最长子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_03_5.最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_03_5.最长回文子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_04_11.盛最多水的容器.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_04_11.盛最多水的容器.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_05_15.三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_05_15.三数之和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_06_17.电话号码的字母组合.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_06_17.电话号码的字母组合.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_07_19.删除链表的倒数第n个结点.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_07_19.删除链表的倒数第n个结点.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_08_22.括号生成.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_08_22.括号生成.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_09_31.下一个排列.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_09_31.下一个排列.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_10_33.搜索旋转排序数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_10_33.搜索旋转排序数组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_11_34.排序数组中找元素的第一和末位位置.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_11_34.排序数组中找元素的第一和末位位置.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_12_39.组合总和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_12_39.组合总和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_13_46.全排列.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_13_46.全排列.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_14_48.旋转图像.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_14_48.旋转图像.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_15_49.字母异位词分组.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_15_49.字母异位词分组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_16_55.跳跃游戏.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_16_55.跳跃游戏.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_17_56.合并区间.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_17_56.合并区间.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_18_62.不同路径.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_18_62.不同路径.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_19_64.最小路径和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_19_64.最小路径和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_20_75.颜色分类.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_20_75.颜色分类.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_21_78.子集.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_21_78.子集.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_22_79.单词搜索.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_22_79.单词搜索.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_23_96.不同的二叉搜索树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_23_96.不同的二叉搜索树.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_24_98.验证二叉搜索树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_24_98.验证二叉搜索树.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_25_102.二叉树的层次遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_25_102.二叉树的层次遍历.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium1/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_27_114.二叉树展开为链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_01_114.二叉树展开为链表.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test10.go" beforeDir="false" afterPath="$PROJECT_DIR$/test3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/test2.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +71,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_中等_02_128.最长连续序列.go">
+  <component name="RunManager" selected="Go 构建.go build 03_map_sync.map.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,22 +81,31 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_中等_02_128.最长连续序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_02_128.最长连续序列.go" />
+      <filePath value="$PROJECT_DIR$/01_base/23_go_map_thread_safety/01_map.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="go_Learning" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium/a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" />
+      <filePath value="$PROJECT_DIR$/01_base/23_go_map_thread_safety/01_slice.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 03_map_sync.map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/23_go_map_thread_safety/03_map_sync.map.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -148,32 +127,13 @@
       <filePath value="$PROJECT_DIR$/test4.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning/01_base/23_go_map_thread_safety" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="go_Learning" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/01_base/23_go_map_thread_safety" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_Learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test10.go" />
+      <filePath value="$PROJECT_DIR$/01_base/23_go_map_thread_safety/01_slice.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -188,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build a1_中等_02_128.最长连续序列.go" />
+        <item itemvalue="Go 构建.go build 03_map_sync.map.go" />
         <item itemvalue="Go 构建.go build go_Learning (1)" />
-        <item itemvalue="Go 构建.go build test10.go" />
-        <item itemvalue="Go 构建.go build a1_中等_26_105.从前序与中序遍历序列构造二叉树.go" />
-        <item itemvalue="Go 构建.go build go_Learning" />
+        <item itemvalue="Go 构建.go build 01_map.go" />
+        <item itemvalue="Go 构建.go build 01_slice.go" />
+        <item itemvalue="Go 构建.go build go_Learning/01_base/23_go_map_thread_safety" />
       </list>
     </recent_temporary>
   </component>
