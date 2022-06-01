@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_03_139.单词拆分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_04_142.环形链表2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_05_347.前k个高频元素.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/18_go_slice/04_修改slice的值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_06_200.岛屿数量.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test6.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test5.go" beforeDir="false" afterPath="$PROJECT_DIR$/test5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example.o" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/2_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/2_example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make10000_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make10000_example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make10000_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make10000_example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make1000_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make1000_example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make1000_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make1000_example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.go" beforeDir="false" afterPath="$PROJECT_DIR$/test3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.go" beforeDir="false" afterPath="$PROJECT_DIR$/test4.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -60,6 +72,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -69,10 +82,11 @@
       <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_go_memory/01_go_memery_escape" />
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build a1_中等_05_347.前k个高频元素.go">
+  <component name="RunManager" selected="Go 构建.go build 01_修改原有元素的值.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -82,34 +96,25 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 03_map_sync.map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_修改原有元素的值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01_base/23_go_map_thread_safety/03_map_sync.map.go" />
+      <filePath value="$PROJECT_DIR$/01_base/17_go_range/01_修改原有元素的值.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_中等_03_139.单词拆分.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_slice中隐藏的数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_03_139.单词拆分.go" />
+      <filePath value="$PROJECT_DIR$/01_base/18_go_slice/01_slice中隐藏的数据.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build a1_中等_05_347.前k个高频元素.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_05_347.前k个高频元素.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -125,10 +130,10 @@
       <kind value="FILE" />
       <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test5.go" />
+      <filePath value="$PROJECT_DIR$/test6.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/05_leetcode_top_100/2_medium2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -142,9 +147,28 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_leetcode_top_100/2_medium2" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_04_142.环形链表2.go" />
+      <filePath value="$PROJECT_DIR$/test3.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning/01_base/18_go_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning/01_base/18_go_slice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/18_go_slice/04_修改slice的值.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -159,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build a1_中等_05_347.前k个高频元素.go" />
-        <item itemvalue="Go 构建.go build go_Learning" />
-        <item itemvalue="Go 构建.go build go_Learning/05_leetcode_top_100/2_medium2" />
-        <item itemvalue="Go 构建.go build a1_中等_03_139.单词拆分.go" />
-        <item itemvalue="Go 构建.go build 03_map_sync.map.go" />
+        <item itemvalue="Go 构建.go build 01_修改原有元素的值.go" />
+        <item itemvalue="Go 构建.go build go_Learning/01_base/18_go_slice" />
+        <item itemvalue="Go 构建.go build 01_slice中隐藏的数据.go" />
+        <item itemvalue="Go 构建.go build go_Learning (2)" />
+        <item itemvalue="Go 构建.go build go_Learning (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +208,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/16_source_code/02_golang-underlying-principle-analysis/golang-underlying-principle-analysis" />
       <path value="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/golang-underlying-principle-analysis" />

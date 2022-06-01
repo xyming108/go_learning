@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 type query func(string) string
 
@@ -25,6 +28,7 @@ func main() {
 	}, func(n string) string {
 		return n + "func4"
 	})
+	fmt.Println(runtime.NumGoroutine())
 	fmt.Println(ret)
 	// 下面还有很多执行流程，省略
 }
