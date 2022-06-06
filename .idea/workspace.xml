@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/01_base/18_go_slice/04_修改slice的值.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/2_medium2/a1_中等_06_200.岛屿数量.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_example.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/1_new_example.o" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/1_new_example.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/2_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/2_example.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make10000_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make10000_example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make10000_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make10000_example.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make1000_example" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make1000_example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_go_memory_escape/3_make1000_example.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_go_memory/01_go_memery_escape/3_make1000_example.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test3.go" beforeDir="false" afterPath="$PROJECT_DIR$/test3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test4.go" beforeDir="false" afterPath="$PROJECT_DIR$/test4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.go" beforeDir="false" afterPath="$PROJECT_DIR$/test6.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +72,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 01_修改原有元素的值.go">
+  <component name="RunManager" selected="Go 构建.go build go_Learning (2)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -183,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build go_Learning (2)" />
         <item itemvalue="Go 构建.go build 01_修改原有元素的值.go" />
         <item itemvalue="Go 构建.go build go_Learning/01_base/18_go_slice" />
         <item itemvalue="Go 构建.go build 01_slice中隐藏的数据.go" />
-        <item itemvalue="Go 构建.go build go_Learning (2)" />
         <item itemvalue="Go 构建.go build go_Learning (3)" />
       </list>
     </recent_temporary>
