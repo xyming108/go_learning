@@ -49,7 +49,8 @@ func Handle(rw http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
-	handler := WithRequestID(http.HandlerFunc(Handle))
+	handlerFunc := http.HandlerFunc(Handle)
+	handler := WithRequestID(handlerFunc)
 	err := http.ListenAndServe("127.0.0.1:8000", handler)
 	if err != nil {
 		return

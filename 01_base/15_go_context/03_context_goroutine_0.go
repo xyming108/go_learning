@@ -13,10 +13,12 @@ func gen(ctx context.Context) <-chan int {
 		for {
 			select {
 			case <-ctx.Done():
+				fmt.Println("----------Done!!")
 				return
 			case ch <- n:
+				fmt.Println("----------n:", n)
 				n++
-				time.Sleep(time.Second)
+				time.Sleep(time.Millisecond * 200)
 			}
 		}
 	}()

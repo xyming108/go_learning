@@ -13,8 +13,10 @@ func main() {
 	for i := 0; i < 10; i++ {
 		messages <- i
 	}
+	defer close(messages)
 
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
 
 	// consumer
 	go func(ctx context.Context) {
@@ -29,9 +31,6 @@ func main() {
 			}
 		}
 	}(ctx)
-
-	defer close(messages)
-	defer cancel()
 
 	select {
 	case <-ctx.Done():
