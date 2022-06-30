@@ -19,11 +19,11 @@ package main
 输出：[0]
 */
 
-type TreeNode struct {
+/*type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
-}
+}*/
 
 /*
 前序遍历+递归实现
