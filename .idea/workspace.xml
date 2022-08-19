@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/04_link_206_反转链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/05_link_25_K个一组翻转链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/06_link_141_环形链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/07_link_142_环形链表2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/08_link_21_合并两个有序链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/09_stack_20_有效的括号.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test8.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/03_array_88_合并两个有序数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/03_array_88_合并两个有序数组.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,7 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,7 +75,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 04_array_66_加一.go">
+  <component name="RunManager" selected="Go 构建.go build test8.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,15 +83,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 02_array_283_移动零.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/02_array_283_移动零.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 03_array_88_合并两个有序数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -133,6 +121,15 @@
       <filePath value="$PROJECT_DIR$/05_leetcode_top_100/1_easy/a1_简单_11_141.环形链表.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test8.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test8.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -145,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test8.go" />
         <item itemvalue="Go 构建.go build 04_array_66_加一.go" />
         <item itemvalue="Go 构建.go build a1_简单_11_141.环形链表.go" />
         <item itemvalue="Go 构建.go build 05_link_25_K个一组翻转链表.go" />
         <item itemvalue="Go 构建.go build 03_array_88_合并两个有序数组.go" />
-        <item itemvalue="Go 构建.go build 02_array_283_移动零.go" />
       </list>
     </recent_temporary>
   </component>
