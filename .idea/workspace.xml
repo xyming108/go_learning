@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/10_stack_150_逆波兰表达式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/11_stack_224_基本计算器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_柱状图中最大的矩形.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_柱状图中最大的矩形.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_柱状图中最大的矩形.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
