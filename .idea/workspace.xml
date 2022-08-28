@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/13_stack_42_h_接雨水.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_stack_85_h_最大矩形.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_h_柱状图中最大的矩形.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_h_柱状图中最大的矩形.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/13_queue_239_h_滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_queue_239_h_滑动窗口最大值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Advanced_go_programming/1_素数筛_并发.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_Advanced_go_programming/1_素数筛_并发.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_queue_239_h_滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/15_queue_239_h_滑动窗口最大值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 13_stack_42_h_接雨水.go">
+  <component name="RunManager" selected="Go 构建.go build 14_stack_85_h_最大矩形.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,15 +85,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 10_stack_150_逆波兰表达式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/10_stack_150_逆波兰表达式.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 11_stack_224_基本计算器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -131,6 +123,15 @@
       <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/13_stack_42_h_接雨水.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 14_stack_85_h_最大矩形.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_stack_85_h_最大矩形.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 14_stack_85_h_最大矩形.go" />
         <item itemvalue="Go 构建.go build 13_stack_42_h_接雨水.go" />
         <item itemvalue="Go 构建.go build 13_queue_239_滑动窗口最大值.go" />
         <item itemvalue="Go 构建.go build 12_stack_84_柱状图中最大的矩形.go" />
         <item itemvalue="Go 构建.go build 11_stack_224_基本计算器.go" />
-        <item itemvalue="Go 构建.go build 10_stack_150_逆波兰表达式.go" />
       </list>
     </recent_temporary>
   </component>

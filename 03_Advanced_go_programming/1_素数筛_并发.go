@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 )
-
 // GenerateNatural 返回生成自然数序列的管道: 2, 3, 4, ...
 func GenerateNatural() chan int {
 	ch := make(chan int)
