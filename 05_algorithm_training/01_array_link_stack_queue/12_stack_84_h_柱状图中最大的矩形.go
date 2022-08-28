@@ -57,7 +57,7 @@ func largestRectangleArea(heights []int) int {
 }
 
 /*
-解法二：栈
+解法二：单调栈
 时间复杂度：O(N)
 空间复杂度：O(N)
 
