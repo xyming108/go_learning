@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_stack_85_h_最大矩形.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context/01_context_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/01_mutex_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/02_once_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/03_pool_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Advanced_go_programming/1_素数筛_并发.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_Advanced_go_programming/1_素数筛_并发.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_queue_239_h_滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/15_queue_239_h_滑动窗口最大值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +60,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,11 +78,12 @@
       <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
       <recent name="$PROJECT_DIR$/14_go_memory/01_go_memery_escape" />
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 14_stack_85_h_最大矩形.go">
+  <component name="RunManager" selected="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,51 +91,6 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 11_stack_224_基本计算器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/11_stack_224_基本计算器.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 12_stack_84_柱状图中最大的矩形.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/12_stack_84_柱状图中最大的矩形.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 13_queue_239_滑动窗口最大值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/13_queue_239_滑动窗口最大值.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 13_stack_42_h_接雨水.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/13_stack_42_h_接雨水.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 14_stack_85_h_最大矩形.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/14_stack_85_h_最大矩形.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -142,13 +103,73 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestContext" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_advanced/01_context" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestContext\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestControl" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_advanced/01_context" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestControl\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestMutex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMutex\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOnce\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOnce2\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 14_stack_85_h_最大矩形.go" />
-        <item itemvalue="Go 构建.go build 13_stack_42_h_接雨水.go" />
-        <item itemvalue="Go 构建.go build 13_queue_239_滑动窗口最大值.go" />
-        <item itemvalue="Go 构建.go build 12_stack_84_柱状图中最大的矩形.go" />
-        <item itemvalue="Go 构建.go build 11_stack_224_基本计算器.go" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestMutex" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestControl" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestContext" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +198,8 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_learning$go_Learning_05_go_practical_training_camp_01_advanced_01_context__ExampleWithDeadline.out" NAME="go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 ExampleWithDeadline 覆盖结果" MODIFIED="1662709063415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
