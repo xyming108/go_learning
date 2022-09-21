@@ -21,7 +21,7 @@ func consumer(data <-chan int) {
 		if !ok {
 			break
 		}
-		fmt.Println("---1:", v, "===1:", ok)
+		fmt.Println("---:", v, "  ===:", ok)
 	}
 }
 

@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context/01_context_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/01_mutex_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/02_once_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/03_pool_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_leetcode_top_100/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/03_channel/01_channel_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/03_channel/02_channel_mq_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_base/05_channel/a_08_producer_consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_base/05_channel/a_08_producer_consumer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context/01_context_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/01_context/01_context_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/01_mutex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync/01_mutex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/02_once_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync/02_once_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync/03_pool_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync/03_pool_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test8.go" beforeDir="false" afterPath="$PROJECT_DIR$/test8.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2">
+  <component name="RunManager" selected="Go 构建.go build a_08_producer_consumer.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,6 +93,53 @@
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build a_08_producer_consumer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/01_base/05_channel/a_08_producer_consumer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test8.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test9.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -103,73 +152,37 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestContext" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel 中的 TestChannelNoBuffer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/03_channel" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_advanced/01_context" />
+      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestContext\E$" />
+      <pattern value="^\QTestChannelNoBuffer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestControl" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel 中的 TestMq1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/01_context" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/03_channel" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_advanced/01_context" />
+      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestControl\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestMutex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMutex\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestOnce\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_advanced/02_sync" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestOnce2\E$" />
+      <pattern value="^\QTestMq1\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce2" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestOnce" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/02_sync 中的 TestMutex" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestControl" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_advanced/01_context 中的 TestContext" />
+        <item itemvalue="Go 构建.go build a_08_producer_consumer.go" />
+        <item itemvalue="Go 构建.go build go_Learning (2)" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel 中的 TestMq1" />
+        <item itemvalue="Go 构建.go build go_Learning (1)" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/03_channel 中的 TestChannelNoBuffer" />
       </list>
     </recent_temporary>
   </component>
