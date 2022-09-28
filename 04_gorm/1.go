@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/jinzhu/gorm"
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
 	"time"
 )
 
@@ -19,8 +20,8 @@ type User struct {
 
 func main() {
 	//gorm.Open("mysql", "user:password@tcp(host:port)/dbname?charset=utf8&parseTime=True&loc=Local")
-	db, _ := gorm.Open("mysql", "root:@tcp(127.0.0.1:3306)/gorm_test_local?charset=utf8&parseTime=True&loc=Local")
-	defer db.Close()
+	db, _ := gorm.Open(mysql.Open("root:@tcp(127.0.0.1:3306)/gorm_test_local?charset=utf8&parseTime=True&loc=Local"),
+		&gorm.Config{Logger: logger.Default.LogMode(logger.Error)})
 
 	//**插入*****************************************************************************
 
