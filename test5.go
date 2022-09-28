@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func quickSort(a []int, left, right int) {
 	if left >= right {
 		return
@@ -25,7 +23,5 @@ func quickSort(a []int, left, right int) {
 }
 
 func main() {
-	a := []int{1, 4, 7, 2, 8, 3, 3, 9, 0, 1, 10}
-	quickSort(a, 0, len(a)-1)
-	fmt.Println(a)
+
 }
