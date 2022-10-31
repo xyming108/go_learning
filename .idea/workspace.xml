@@ -5,678 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync/04_lock_rwlock_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo/01_fields_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo/02_fields_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_reflect_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/02_map/01_map_1_e_两数之和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/02_map/02_map_874_m_模拟行走机器人.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_gin/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_gorm/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_gorm/1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/conf/conf.dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/conf/conf.prod.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/consumer/GoQueueConsumer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/model/other_sn_mac.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/model/upload_sn_mac.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/service/changeState.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/service/excelOperation.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/types/uploadSnMac.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/utils/csvUtils/csv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_project/01_go_excel_batch/utils/modelUtils/database.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/README.en.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/array/sort.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/array/sort1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/1.3.9-export_csv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/array1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/array2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/array4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/array5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/array6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/arrayDelete.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/arrayToString.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/iteration1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/arraySlice/mutilarray5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/base/break.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/base/continue.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/1.9.1-channel1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/1.9.2-channel2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/1.9.3-channel4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/1.9.5-channel5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/cases/channel1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/channel/cases/channel2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/exportCsv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7-interface1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.3-interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.3-interface1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.4-interface1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.4-interface2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.4-interface3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.5-interface1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.5-interface2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/interface/1.7.5-interface3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/1.5.5-map1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/1.5.5-map2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map10.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map11.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map7.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map8.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/map/map9.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/mod/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.10-str.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.11-str.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.11-str2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.12-str.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.13-downloadCsv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.14-shell.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.14-shell1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.2-str5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.3-strRev.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.4-password.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.4-rand1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.4-rand2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.5-str1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.5-str2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.6-str.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.7-csv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.8-csv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/1.2.9-str.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/exportUsers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/string/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/game/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/game/pkg/player.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/game/pkg/vector.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/oob1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/oob2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/oob3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/oob4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/person/student.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter1/struct/struct6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-case.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-pointer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-pointer1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-pointer2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-pointer3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.3-pointer4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.4-parameter1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.4-parameter2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.5-func3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.1.5-func4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.3.4-compiler_debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.3.4-compiler_debug.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.4.2-gdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.4.2-gdb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.5.2-error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.1-hash.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.1-sha1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.1-sha256.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.2-3DES.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.2-AES.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.2-CBC.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.2-DES.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.2-RSA.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.3-ECC.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.4-base58.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.6.4-base64.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.7.1-pprof1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.7.1-pprof2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/2.7.2-trace.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.3-pointer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.3-pointer1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.3-pointer2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.3-pointer3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.3-pointer4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.4-parameter1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.1.4-parameter2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.5.2-goroutine2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.5.2-goroutine3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.5.2-goroutine4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/2.5.2-goroutine5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advanced/link/link.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/closure1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/closure2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/closure3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/closure4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/func1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/func2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/func3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/func4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/anonymous/variable.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/advancedFunc/recursive/2.3.1-recursive.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/array/sort2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/beego_user.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/bench/bench.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/bench/bench_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/cgo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/cgo1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/cgo2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/cgo/cgo3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/gorm_user.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/map/map7.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/mutilarray5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/pprof/cpu.prof" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/pprof/pprof1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/pprof/pprof2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/pprof/profile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/private.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/public.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/reflect/reflect6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/ssa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/testFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/trace/myTrace.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter2/trace/trace2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.2.1-http-1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.2.2-http2-1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.2-http3-1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.2-http3-client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.2-http3-server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.4-socket-client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.4-socket-client1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.4-socket-server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.3.4-socket-server1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql5.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql6.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql7.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.5.1-mysql8.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.6-redis1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.6-redis2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.6.2-rank1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.7-grpc-client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.7-grpc-server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/3.8-distribute-crawer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/crawler/crawler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/distribute/master.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/distribute/rpcCall.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/distribute/worker.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/key.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/protobuf/student.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/protobuf/student.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/ca.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/cert.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/cert_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/generate_key.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/priv.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/testdata/testdata_suite_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter3/utils/buffered_write_closer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.1-goroutine1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.2-futureMode.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.3-goroutine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.3-goroutine1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.4-goroutine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.5-goroutine1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.4.6-goroutine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.5.7-sync-map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.5.7-sync-map1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.6.1-limitConcurrency.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.6.1-limitConcurrency1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.6.2-tick1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/4.6.3-select.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/cgo-struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/cgo-struct1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/cgo-struct2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/cgo-struct3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/first-c.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/first-cgo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/first-cgo1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/hello-cgo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/hello-cgo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/helloworld.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/helloworld.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync/5.7.2-main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync/pkg/5.7.2-taskProducer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync/pkg/5.7.2-workConsumer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync/pkg/5.7.2-workProcessData.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync/pkg/5.7.2-workProcessUnit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter4/sync2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-etcd.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-lock1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-lock2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-redis-lock.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-zookeeper.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4-zookeeper1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.4.2-mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.5-snowflake.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.5.2-gleam.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/5.6.1-go-micro-helloworld.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/consistentHash.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/goRandomBalance.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/goRoundRobin.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/micro/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/micro/go-micro1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/micro/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/micro/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/model/mongodb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/model/redismq.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter5/newConsistentHashBalanc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/cache/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/cache/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/limit/limiter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/limit/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/limit/main_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/nginxgo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/cache/localCache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/cache/remoteCache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/ratelimiting.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/record.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/css/product.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/js/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/js/jquery-1.10.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/upload/20210118/1610940522542324000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/upload/20210118/1610940522573123000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/upload/20210118/1610940548355473000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/upload/20210118/1610940762322803000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/static/upload/20210118/1610940776037983000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/util/resp.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/01_goAdvanced/chapter6/secondKill/views/goods/secondKill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part2_dead_lock.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part3_close.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part4_chan_exit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part5_chan_param_return.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part6_select.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/channel/part7_nil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/1_token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/2_parse.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/3_ast.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/4_capture_var.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/5_inline.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/5_inline_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/6_escape.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/6_no_escape.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/7_escape.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/compiler/8_escape_rewritte.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_control/1_context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_control/2_race.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_control/3_atomic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_control/4_atomicswap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_control/5_mutex.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/concurrence_pattern/channel_nil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/deep_goroutine/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/args.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/deferproc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/heap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/middlewire.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/order.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/return1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/return2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/stack.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/defer/stack_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/1_float32bits.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/2_bitstofloat32.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/3_float_is_int.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/4_float_nan.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/TypeInference.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/const_no_address.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/const_truncated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/fmt_float.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/math_big_float.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/math_big_int.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/float/string.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/function/debug_print.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/function/pprof_print_stack.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/function/stack.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/function/stack_trace.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part1_basic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part2_go_keyword.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part3_sleep_main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part4_chan_basic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part5_muti_chan.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part6_loop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/part7_range_chan.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/goroutine/pat8_remove_error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part10_hash.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part11_point_error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part12_nil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part13_convert.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part1_shape.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part2_muti_interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part3_efficiency_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part3_escape.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part3_escape_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part4_compile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part5_noline.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part5_noline_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part6_point.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part6_point_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part7_cpu.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part7_cpu_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part8_eface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part8_eface_int8_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part8_eface_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/interface/part9_eface_switch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/panic_chain.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/panic_nested.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/panic_runtime.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/panic_underthehook.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/recover.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/panic/recover_nested.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/cpu.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/goroutine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/internal.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/memory.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/memory.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/mutex.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/pprof/trace.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part1_why.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part2_basic_type.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part3_convert_to_interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part4_elem.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part5_struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part6_struct_set.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part7_struct_nested.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part8_struct_method.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/reflect/part9_struct_reflect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/skill/1_cpu_cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/string/Parsing.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis/string/splice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/gateway.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/hystrix-example.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/hystrix_handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/string-service/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch10-resiliency/use-string-service/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/model/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/client_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/common_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/token_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/service/user_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch11-security/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/cli/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/cmd/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/httpclient.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/httpserver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/implementation.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc1/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/cmd/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/httpclient.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/httpserver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/implementation.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-go/string-services/svc2/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/client/string.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/client/stringModel.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/cmd/client_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/docker/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/docker/prometheus.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/gateway/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/pb/string.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/pb/string.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/grpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch12-trace/zipkin-kit/string-service/transports.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/framework.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/config/AuthPermission.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/gateway/route/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/client_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/model/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/oauth-script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/plugins/instrument.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/client_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/common_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/token_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/service/user_service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/grpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/oauth-service/transport/oauth_model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/activity.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/oauth.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/oauth.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/seckill.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/seckill.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/user.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pb/user.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/bootstrap/BootstrapProperty.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/bootstrap/bootstrap_config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/decorator.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/oauth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/client/user_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/common/service_instance.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/ConfigProperty.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/config/need_config.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/discover_init.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/discovery_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/discover/kit_consul_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/loadbalance/loadbalance.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/mysql/mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/pkg/ratelimiter/instruments.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/seckill.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/seckill.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/etcd_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/model/activity.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/model/product.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/plugins/instrument.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/activity.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/product.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/etcd.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/etcd_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/zk.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/setup/zk_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-admin/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/model/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/plugins/instrument.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_err/error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/anti_spam.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/min_limit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_limit/sec_limit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/service/srv_redis/redis_proc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/setup/zk.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/test/app.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-app/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_err/error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_limit/sec_limit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_product/product_count.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_redis/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_redis/user_skill.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/service/srv_user/user_history.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/sk-core/setup/zk.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/model/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/plugins/instrument.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/grpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/transport/user_model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/user-service/user-script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/压测秒杀系统.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch13-seckill/架构图.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Anonymous.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Append.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Callback.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Compose.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Counter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Embed.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Flag.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Foreach.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/FunctionImplementor.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/HelloGo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/List.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Person.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Pointer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/StructImplementor.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/TypeAlias.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch3-basic/Variable.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/compute/add.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/concurrency/channel.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/concurrency/first_concurrency.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/main/hello.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/main/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/reflection/reflection.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/mutex.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/rw_mutex.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/sync_map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch4-feature/synch/wait_group.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/SimpleServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/beego/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/forms/login.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/gin/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/helloweb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/memory/memory.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mongo/mongo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mysql/mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/mysql/script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/webForm.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch5-web/writeresponse.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/discover_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/kit_discover_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/discover/my_discover_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/endpoint/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/plugins/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/string-service/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch6-discovery/transport/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/basic/string-service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/go-kit/string-service/transports.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/grpc/string-service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/pb/string.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/pb/string.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream-pb/stream_string.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream-pb/stream_string.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch7-rpc/stream/string-service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/ViperDemo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/conf/conf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/conf/events.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/config/resume_config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch8-config/resume.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/gateway/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/endpoints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/ch9-gateway/string-service/transports.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/discover/discover_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/discover/kit_discover_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/loadbalance/loadbalance.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro/common/loadbalance/loadbalance_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/05_link_25_h_K个一组翻转链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue/05_link_25_h_K个一组翻转链表.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -731,7 +67,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.dep" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -748,7 +84,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields">
+  <component name="RunManager" selected="Go 构建.go build 02_map_874_m_模拟行走机器人.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -758,15 +94,69 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="01_reflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01_gin.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_reflect_test.go" />
-      <framework value="gotest" />
+      <filePath value="$PROJECT_DIR$/16_gin/01_gin.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 01_map_1_e_两数之和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/01_map_1_e_两数之和.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 02_map_874_m_模拟行走机器人.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/02_map_874_m_模拟行走机器人.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test1.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_Learning/16_gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/16_gin" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/16_gin/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -779,61 +169,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect 中的 TestReflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestReflect\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestIterateFields\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields/nil" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestIterateFields\E$/^\Qnil\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields/user" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestIterateFields\E$/^\Quser\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields/user" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect/01_demo 中的 TestIterateFields/nil" />
-        <item itemvalue="Go 测试.01_reflect_test.go" />
-        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/05_reflect 中的 TestReflect" />
+        <item itemvalue="Go 构建.go build 02_map_874_m_模拟行走机器人.go" />
+        <item itemvalue="Go 构建.go build 01_map_1_e_两数之和.go" />
+        <item itemvalue="Go 构建.go build go_Learning/16_gin" />
+        <item itemvalue="Go 构建.go build go_Learning" />
+        <item itemvalue="Go 构建.go build 01_gin.go" />
       </list>
     </recent_temporary>
   </component>

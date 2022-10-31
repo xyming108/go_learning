@@ -17,10 +17,10 @@ k 是一个正整数，它的值小于或等于链表的长度。如果节点总
 输出：[3,2,1,4,5]
 */
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
 
 func ReverseNode(head, tail *ListNode) (*ListNode, *ListNode) {
 	prev := tail.Next
