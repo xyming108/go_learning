@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/02_map/07_map_697_e_数组的度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/02_map/08_map_1074_h_元素和为目标值的子矩阵数量.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/01_prefix_1048_m_统计(优美子数组).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/02_prefix_304_m_二维区域和检索(矩阵不可变).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/03_difference_1109_m_航班预订统计.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/02_map/01_map_1_e_两数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/02_map/01_map_1_e_两数之和.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build go_Learning/05_algorithm_training/02_map">
+  <component name="RunManager" selected="Go 构建.go build 03_difference_1109_m_航班预订统计.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,22 +90,13 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 04_map_30_h_串联所有单词的子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 03_difference_1109_m_航班预订统计.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/04_map_30_h_串联所有单词的子串.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 05_map_146_m_LRU缓存.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/05_map_146_m_LRU缓存.go" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/03_difference_1109_m_航班预订统计.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 06_map_811_m_子域名访问计数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -118,23 +108,13 @@
       <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/06_map_811_m_子域名访问计数.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 09_prefix_1048_m_统计(优美子数组).go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/09_prefix_1048_m_统计(优美子数组).go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning/05_algorithm_training/02_map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -156,6 +136,25 @@
       <filePath value="$PROJECT_DIR$/05_algorithm_training/02_map/07_map_697_e_数组的度.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_Learning/05_algorithm_training/03_prefix_sum_difference_double_pointer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go_Learning/05_algorithm_training/03_prefix_sum_difference_double_pointer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer/02_prefix_304_m_二维区域和检索(矩阵不可变).go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 03_difference_1109_m_航班预订统计.go" />
+        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/03_prefix_sum_difference_double_pointer" />
+        <item itemvalue="Go 构建.go build 09_prefix_1048_m_统计(优美子数组).go" />
         <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/02_map" />
         <item itemvalue="Go 构建.go build 06_map_811_m_子域名访问计数.go" />
-        <item itemvalue="Go 构建.go build 05_map_146_m_LRU缓存.go" />
-        <item itemvalue="Go 构建.go build 04_map_30_h_串联所有单词的子串.go" />
-        <item itemvalue="Go 构建.go build go_Learning" />
       </list>
     </recent_temporary>
   </component>
