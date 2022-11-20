@@ -34,12 +34,12 @@ import "fmt"
 //	Left  *TreeNode
 //	Right *TreeNode
 //}
-func max(a, b int) int {
+/*func max(a, b int) int {
 	if a < b {
 		return b
 	}
 	return a
-}
+}*/
 
 
 //深度优先搜索
