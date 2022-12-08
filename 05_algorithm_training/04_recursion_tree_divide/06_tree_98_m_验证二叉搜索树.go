@@ -26,11 +26,11 @@ import (
 -231 <= Node.val <= 231 - 1
 */
 
-type TreeNode struct {
+/*type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
-}
+}*/
 
 //递归法
 //时间复杂度：O(n)
