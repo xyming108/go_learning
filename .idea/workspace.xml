@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/07_tree_104_e_二叉树的最大深度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/08_tree_111_e_二叉树的最小深度.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_base/10_go_redis/a_01_redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/09_divide_50_m_Pow(x, n).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/10_divide_22_m_括号生成.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/11_tree_94_e_二叉树的中序遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/12_tree_589_e_N叉树的前序遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/13_tree_429_m_N叉树的层次遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/14_tree_105_m_前序与中序构造二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/15_tree_106_m_中序与后序构造二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/16_tree_236_m_二叉树的最近公共祖先.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test8.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/06_tree_98_m_验证二叉搜索树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/06_tree_98_m_验证二叉搜索树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/05_tree_226_e_翻转二叉树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/05_recursion_226_e_翻转二叉树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/06_tree_98_m_验证二叉搜索树.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/06_recursion_98_m_验证二叉搜索树.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/07_tree_104_e_二叉树的最大深度.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/07_recursion_104_e_二叉树的最大深度.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/08_tree_111_e_二叉树的最小深度.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/08_recursion_111_e_二叉树的最小深度.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +94,7 @@
       <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide (2)">
+  <component name="RunManager" selected="Go 构建.go build test8.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,70 +104,22 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 06_tree_98_m_验证二叉搜索树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10_divide_22_m_括号生成.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/06_tree_98_m_验证二叉搜索树.go" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/10_divide_22_m_括号生成.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/05_algorithm_training" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_divide_23_h_合并k个升序链表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_algorithm_training" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/test3.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_Learning/05_algorithm_training/04_recursion_tree_divide (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="go_Learning/05_algorithm_training/04_recursion_tree_divide" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/07_tree_104_e_二叉树的最大深度.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_Learning/05_algorithm_training/04_recursion_tree_divide (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <package value="go_Learning/05_algorithm_training/04_recursion_tree_divide" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/08_tree_111_e_二叉树的最小深度.go" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/11_divide_23_h_合并k个升序链表.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_Learning/05_algorithm_training/04_recursion_tree_divide" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -175,7 +138,25 @@
       <kind value="FILE" />
       <package value="go_Learning/05_algorithm_training/04_recursion_tree_divide" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/05_tree_226_e_翻转二叉树.go" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/test2.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/test1.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test8.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test8.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -190,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide (2)" />
-        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide (1)" />
-        <item itemvalue="Go 构建.go build 06_tree_98_m_验证二叉搜索树.go" />
+        <item itemvalue="Go 构建.go build test8.go" />
         <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide" />
-        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training" />
+        <item itemvalue="Go 构建.go build test1.go" />
+        <item itemvalue="Go 构建.go build 11_divide_23_h_合并k个升序链表.go" />
+        <item itemvalue="Go 构建.go build 10_divide_22_m_括号生成.go" />
       </list>
     </recent_temporary>
   </component>

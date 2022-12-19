@@ -21,11 +21,11 @@ import "fmt"
 输出：5
 */
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+//type TreeNode struct {
+//	Val   int
+//	Left  *TreeNode
+//	Right *TreeNode
+//}
 
 func min(a, b int) int {
 	if a < b {
