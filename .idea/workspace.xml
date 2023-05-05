@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a999ef-7ecf-4a48-919a-0c11b6fff046" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/17_graph_207_m_课程表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/18_graph_210_m_课程表2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_algorithm_training/00_all_other/01_prefix_tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_utils/httpUtils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/101_types/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/speedControl/postSpeedControl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/speedControl/reqTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/speedControl/toLark.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/util/initChannel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/wordCompare1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_word_compare/wordCompare2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.go" beforeDir="false" afterPath="$PROJECT_DIR$/test4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test5.go" beforeDir="false" afterPath="$PROJECT_DIR$/test5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.go" beforeDir="false" afterPath="$PROJECT_DIR$/test6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test8.go" beforeDir="false" afterPath="$PROJECT_DIR$/test8.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +56,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test8.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test5.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27dl9KH4fClTiMBOs7DPBmFmOir" />
@@ -50,6 +69,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -62,27 +82,27 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/17_word_compare" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/17_word_compare" />
       <recent name="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide" />
       <recent name="$PROJECT_DIR$/05_algorithm_training/03_prefix_sum_difference_double_pointer" />
       <recent name="$PROJECT_DIR$/05_algorithm_training/01_array_link_stack_queue" />
       <recent name="$PROJECT_DIR$/16_source_code/03_go_high_concurrency_and_micro" />
-      <recent name="$PROJECT_DIR$/16_source_code/02_golang_underlying_principle_analysis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_utils" />
+      <recent name="$PROJECT_DIR$/17_word_compare/speedControl" />
       <recent name="$PROJECT_DIR$/05_algorithm_training" />
       <recent name="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/03_channel" />
       <recent name="$PROJECT_DIR$/05_go_practical_training_camp/01_advanced/02_sync" />
-      <recent name="$PROJECT_DIR$/14_go_memory/01_go_memery_escape" />
-      <recent name="$PROJECT_DIR$/05_leetcode_top_100/2_medium2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide (1)">
+  <component name="RunManager" selected="Go 构建.go build go_Learning (3)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,16 +112,7 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 11_divide_23_h_合并k个升序链表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/11_divide_23_h_合并k个升序链表.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_Learning/05_algorithm_training/04_recursion_tree_divide (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -115,12 +126,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_algorithm_training/04_recursion_tree_divide" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/18_graph_210_m_课程表2.go" />
+      <filePath value="$PROJECT_DIR$/test2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Learning/05_algorithm_training/04_recursion_tree_divide" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -134,27 +145,28 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <package value="go_Learning/05_algorithm_training/04_recursion_tree_divide" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/test2.go" />
+      <filePath value="$PROJECT_DIR$/test5.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Learning (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="FILE" />
-      <package value="go_learning" />
+      <package value="go_Learning" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05_algorithm_training/04_recursion_tree_divide/test1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test8.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test8.go" />
+      <filePath value="$PROJECT_DIR$/test9.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -167,13 +179,37 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync 中的 TestOnce2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOnce2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync 中的 TestPool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/05_go_practical_training_camp/01_go_advanced/02_sync" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestPool\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide (1)" />
-        <item itemvalue="Go 构建.go build test8.go" />
-        <item itemvalue="Go 构建.go build go_Learning/05_algorithm_training/04_recursion_tree_divide" />
-        <item itemvalue="Go 构建.go build test1.go" />
-        <item itemvalue="Go 构建.go build 11_divide_23_h_合并k个升序链表.go" />
+        <item itemvalue="Go 构建.go build go_Learning (3)" />
+        <item itemvalue="Go 构建.go build go_Learning (2)" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync 中的 TestOnce2" />
+        <item itemvalue="Go 测试.go_Learning/05_go_practical_training_camp/01_go_advanced/02_sync 中的 TestPool" />
+        <item itemvalue="Go 构建.go build go_Learning (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -14,7 +14,6 @@ require (
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/gin-gonic/gin v1.8.1 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
@@ -77,6 +76,7 @@ require (
 	github.com/Shopify/sarama v1.30.0
 	github.com/apache/rocketmq-client-go/v2 v2.1.0
 	github.com/garyburd/redigo v1.6.2
+	github.com/gin-gonic/gin v1.8.1
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/golang-module/carbon v1.6.4
 	github.com/gomodule/redigo v1.8.5
