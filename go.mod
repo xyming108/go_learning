@@ -1,4 +1,4 @@
-module go_Learning
+module go_learning
 
 go 1.18
 
@@ -66,6 +66,7 @@ require (
 	golang.org/x/net v0.0.0-20221004154528-8021a29435af // indirect
 	golang.org/x/sys v0.0.0-20221006211917-84dc82d7e875 // indirect
 	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -82,6 +83,7 @@ require (
 	github.com/gomodule/redigo v1.8.5
 	github.com/hashicorp/consul/api v1.12.0
 	github.com/julienschmidt/httprouter v1.3.0
+	github.com/makiuchi-d/gozxing v0.1.1
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.0
 	google.golang.org/grpc v1.43.0
