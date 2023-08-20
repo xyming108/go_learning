@@ -1,7 +1,7 @@
 package main
 
-import _2_structure "go_learning/18_design_patterns/02_structure"
+import "fmt"
 
 func main() {
-	_2_structure.ProxyFunc04()
+	fmt.Println("你好，测试")
 }
